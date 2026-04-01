@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <title>Michelangelo Hall Tour — Form Gallery</title>
+    <meta name="theme-color" content="#f4efe7" />
+    <link rel="stylesheet" href="/museum/shared/museum.css?v=20260401-2036" />
+  </head>
+  <body>
+    <a class="skip-link" href="#tour-panel">Skip to tour overview</a>
+    <div class="tour-shell">
+      <aside class="tour-panel" id="tour-panel">
+        <div class="tour-toolbar">
+          <a class="tour-back" href="/museum/">Back to Atrium</a>
+          <div class="tour-toolbar-actions">
+            <button
+              class="ui-mode-toggle ui-mode-toggle--tour"
+              type="button"
+              data-ui-mode-toggle
+              data-label-editorial="Classic Layout"
+              data-label-classic="Editorial Layout"
+              aria-pressed="false"
+              aria-label="Switch to classic layout"
+            >
+              <span class="ui-mode-toggle-glyph" aria-hidden="true"></span>
+              <span class="ui-mode-toggle-text" data-ui-mode-toggle-label>Classic Layout</span>
+            </button>
+            <button
+              class="theme-toggle theme-toggle--tour"
+              type="button"
+              data-theme-toggle
+              data-label-light="Dark Mode"
+              data-label-dark="Light Mode"
+              aria-pressed="false"
+              aria-label="Switch to dark mode"
+            >
+              <span class="theme-toggle-swatch" aria-hidden="true"></span>
+              <span class="theme-toggle-text" data-theme-toggle-label>Dark Mode</span>
+            </button>
+          </div>
+        </div>
+        <div>
+          <p class="tour-kicker">3D Tour Preview</p>
+          <h1 class="tour-title">Michelangelo Hall</h1>
+        </div>
+        <p class="tour-copy">Walk a prototype gallery where the sculptures are staged against one another by real object height rather than the normalized single-work viewer scale.</p>
+        <p class="tour-note">This room is intentionally curated and lighter than the main museum pages: seven Michelangelo works, tour-specific meshes, and interpretive plinths so the scale relationships read quickly.</p>
+        <p class="tour-status" data-tour-status aria-live="polite">Preparing the room...</p>
+
+        <div class="tour-facts" aria-label="Tour facts">
+          <div class="tour-fact">
+            <p class="tour-fact-label">Works</p>
+            <p class="tour-fact-value" data-tour-fact-count>0</p>
+          </div>
+          <div class="tour-fact">
+            <p class="tour-fact-label">Tallest</p>
+            <p class="tour-fact-value" data-tour-fact-tallest>0 m</p>
+          </div>
+          <div class="tour-fact">
+            <p class="tour-fact-label">Height Range</p>
+            <p class="tour-fact-value" data-tour-fact-range>0-0 m</p>
+          </div>
+        </div>
+
+        <div>
+          <p class="tour-kicker">Room List</p>
+          <ul class="tour-piece-list" data-tour-pieces></ul>
+        </div>
+      </aside>
+
+      <main class="tour-stage-shell">
+        <div class="tour-stage" data-tour-stage aria-label="Interactive 3D gallery walkthrough">
+          <div class="tour-loading-card" data-tour-loading>
+            <p class="tour-loading-kicker">Preparing Tour</p>
+            <h2 class="tour-loading-title" data-tour-loading-title>Building a scale-aware gallery</h2>
+            <p class="tour-loading-copy" data-tour-loading-copy>Loading Michelangelo works for the room...</p>
+          </div>
+
+          <div class="tour-hud" aria-hidden="true">
+            <p class="tour-hud-title">Navigation</p>
+            <p class="tour-hud-copy">Drag to look around. Use W A S D to move, Q and E to turn, Shift to move faster, and tap any sculpture label to open its existing work page.</p>
+          </div>
+
+          <div class="tour-mobile-dock" aria-label="Touch navigation">
+            <button class="tour-mobile-btn" type="button" data-move="turnLeft">Turn L</button>
+            <button class="tour-mobile-btn" type="button" data-move="forward">Forward</button>
+            <button class="tour-mobile-btn" type="button" data-move="turnRight">Turn R</button>
+            <button class="tour-mobile-btn" type="button" data-move="left">Left</button>
+            <button class="tour-mobile-btn" type="button" data-move="backward">Back</button>
+            <button class="tour-mobile-btn" type="button" data-move="right">Right</button>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script type="module" src="/museum/shared/tour.js?v=20260401-2036"></script>
+  </body>
+</html>
