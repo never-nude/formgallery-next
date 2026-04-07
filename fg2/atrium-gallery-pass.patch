@@ -1,0 +1,4272 @@
+diff --git a/museum/galleries/americas/index.html b/museum/galleries/americas/index.html
+new file mode 100644
+index 0000000..61682fa
+--- /dev/null
++++ b/museum/galleries/americas/index.html
+@@ -0,0 +1,16 @@
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="utf-8" />
++    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
++    <title>Americas — Form Gallery</title>
++    <meta name="theme-color" content="#11131d" />
++    <link rel="stylesheet" href="/museum/shared/museum.css?v=20260406-1905" />
++  </head>
++  <body>
++    <script type="module">
++      import { initMuseumPageForCurrentPath } from "/museum/shared/page.js?v=20260406-1905";
++      initMuseumPageForCurrentPath();
++    </script>
++  </body>
++</html>
+diff --git a/museum/galleries/asia/index.html b/museum/galleries/asia/index.html
+new file mode 100644
+index 0000000..1d24225
+--- /dev/null
++++ b/museum/galleries/asia/index.html
+@@ -0,0 +1,16 @@
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="utf-8" />
++    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
++    <title>Asia — Form Gallery</title>
++    <meta name="theme-color" content="#11131d" />
++    <link rel="stylesheet" href="/museum/shared/museum.css?v=20260406-1905" />
++  </head>
++  <body>
++    <script type="module">
++      import { initMuseumPageForCurrentPath } from "/museum/shared/page.js?v=20260406-1905";
++      initMuseumPageForCurrentPath();
++    </script>
++  </body>
++</html>
+diff --git a/museum/galleries/bouchardon/index.html b/museum/galleries/bouchardon/index.html
+new file mode 100644
+index 0000000..5e7fb4a
+--- /dev/null
++++ b/museum/galleries/bouchardon/index.html
+@@ -0,0 +1,16 @@
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="utf-8" />
++    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
++    <title>Bouchardon — Form Gallery</title>
++    <meta name="theme-color" content="#11131d" />
++    <link rel="stylesheet" href="/museum/shared/museum.css?v=20260406-1905" />
++  </head>
++  <body>
++    <script type="module">
++      import { initMuseumPageForCurrentPath } from "/museum/shared/page.js?v=20260406-1905";
++      initMuseumPageForCurrentPath();
++    </script>
++  </body>
++</html>
+diff --git a/museum/galleries/early-renaissance/index.html b/museum/galleries/early-renaissance/index.html
+new file mode 100644
+index 0000000..cc1d11c
+--- /dev/null
++++ b/museum/galleries/early-renaissance/index.html
+@@ -0,0 +1,16 @@
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="utf-8" />
++    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
++    <title>Early Renaissance — Form Gallery</title>
++    <meta name="theme-color" content="#11131d" />
++    <link rel="stylesheet" href="/museum/shared/museum.css?v=20260406-1905" />
++  </head>
++  <body>
++    <script type="module">
++      import { initMuseumPageForCurrentPath } from "/museum/shared/page.js?v=20260406-1905";
++      initMuseumPageForCurrentPath();
++    </script>
++  </body>
++</html>
+diff --git a/museum/galleries/egypt-mesopotamia/index.html b/museum/galleries/egypt-mesopotamia/index.html
+new file mode 100644
+index 0000000..4a332e3
+--- /dev/null
++++ b/museum/galleries/egypt-mesopotamia/index.html
+@@ -0,0 +1,16 @@
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="utf-8" />
++    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
++    <title>Egypt & Mesopotamia — Form Gallery</title>
++    <meta name="theme-color" content="#11131d" />
++    <link rel="stylesheet" href="/museum/shared/museum.css?v=20260406-1905" />
++  </head>
++  <body>
++    <script type="module">
++      import { initMuseumPageForCurrentPath } from "/museum/shared/page.js?v=20260406-1905";
++      initMuseumPageForCurrentPath();
++    </script>
++  </body>
++</html>
+diff --git a/museum/galleries/greek-classical/index.html b/museum/galleries/greek-classical/index.html
+new file mode 100644
+index 0000000..880bbe4
+--- /dev/null
++++ b/museum/galleries/greek-classical/index.html
+@@ -0,0 +1,16 @@
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="utf-8" />
++    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
++    <title>Greek Archaic & Classical — Form Gallery</title>
++    <meta name="theme-color" content="#11131d" />
++    <link rel="stylesheet" href="/museum/shared/museum.css?v=20260406-1905" />
++  </head>
++  <body>
++    <script type="module">
++      import { initMuseumPageForCurrentPath } from "/museum/shared/page.js?v=20260406-1905";
++      initMuseumPageForCurrentPath();
++    </script>
++  </body>
++</html>
+diff --git a/museum/galleries/hellenistic-world/index.html b/museum/galleries/hellenistic-world/index.html
+new file mode 100644
+index 0000000..8806db1
+--- /dev/null
++++ b/museum/galleries/hellenistic-world/index.html
+@@ -0,0 +1,16 @@
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="utf-8" />
++    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
++    <title>Hellenistic World — Form Gallery</title>
++    <meta name="theme-color" content="#11131d" />
++    <link rel="stylesheet" href="/museum/shared/museum.css?v=20260406-1905" />
++  </head>
++  <body>
++    <script type="module">
++      import { initMuseumPageForCurrentPath } from "/museum/shared/page.js?v=20260406-1905";
++      initMuseumPageForCurrentPath();
++    </script>
++  </body>
++</html>
+diff --git a/museum/galleries/index.html b/museum/galleries/index.html
+new file mode 100644
+index 0000000..de372f3
+--- /dev/null
++++ b/museum/galleries/index.html
+@@ -0,0 +1,23 @@
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="utf-8" />
++    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
++    <title>Galleries — Form Gallery</title>
++    <meta
++      name="description"
++      content="Browse Form Gallery by gallery and open dedicated room pages for the full work list."
++    />
++    <meta name="theme-color" content="#11131d" />
++    <link rel="stylesheet" href="/museum/shared/museum.css?v=20260406-1905" />
++  </head>
++  <body>
++    <noscript>
++      <p style="margin:16px;font-family:IBM Plex Sans, Avenir Next, sans-serif;color:#2f2a22;">The museum viewer requires JavaScript.</p>
++    </noscript>
++    <script type="module">
++      import { initMuseumPageForCurrentPath } from "/museum/shared/page.js?v=20260406-1905";
++      initMuseumPageForCurrentPath();
++    </script>
++  </body>
++</html>
+diff --git a/museum/galleries/michelangelo/index.html b/museum/galleries/michelangelo/index.html
+new file mode 100644
+index 0000000..8e864c1
+--- /dev/null
++++ b/museum/galleries/michelangelo/index.html
+@@ -0,0 +1,16 @@
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="utf-8" />
++    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
++    <title>Michelangelo — Form Gallery</title>
++    <meta name="theme-color" content="#11131d" />
++    <link rel="stylesheet" href="/museum/shared/museum.css?v=20260406-1905" />
++  </head>
++  <body>
++    <script type="module">
++      import { initMuseumPageForCurrentPath } from "/museum/shared/page.js?v=20260406-1905";
++      initMuseumPageForCurrentPath();
++    </script>
++  </body>
++</html>
+diff --git a/museum/galleries/modern-sculpture/index.html b/museum/galleries/modern-sculpture/index.html
+new file mode 100644
+index 0000000..ba06b07
+--- /dev/null
++++ b/museum/galleries/modern-sculpture/index.html
+@@ -0,0 +1,16 @@
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="utf-8" />
++    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
++    <title>Modern Sculpture — Form Gallery</title>
++    <meta name="theme-color" content="#11131d" />
++    <link rel="stylesheet" href="/museum/shared/museum.css?v=20260406-1905" />
++  </head>
++  <body>
++    <script type="module">
++      import { initMuseumPageForCurrentPath } from "/museum/shared/page.js?v=20260406-1905";
++      initMuseumPageForCurrentPath();
++    </script>
++  </body>
++</html>
+diff --git a/museum/galleries/nineteenth-century/index.html b/museum/galleries/nineteenth-century/index.html
+new file mode 100644
+index 0000000..cfc24c6
+--- /dev/null
++++ b/museum/galleries/nineteenth-century/index.html
+@@ -0,0 +1,16 @@
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="utf-8" />
++    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
++    <title>Nineteenth Century — Form Gallery</title>
++    <meta name="theme-color" content="#11131d" />
++    <link rel="stylesheet" href="/museum/shared/museum.css?v=20260406-1905" />
++  </head>
++  <body>
++    <script type="module">
++      import { initMuseumPageForCurrentPath } from "/museum/shared/page.js?v=20260406-1905";
++      initMuseumPageForCurrentPath();
++    </script>
++  </body>
++</html>
+diff --git a/museum/galleries/rodin/index.html b/museum/galleries/rodin/index.html
+new file mode 100644
+index 0000000..5ce0a5a
+--- /dev/null
++++ b/museum/galleries/rodin/index.html
+@@ -0,0 +1,16 @@
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="utf-8" />
++    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
++    <title>Rodin — Form Gallery</title>
++    <meta name="theme-color" content="#11131d" />
++    <link rel="stylesheet" href="/museum/shared/museum.css?v=20260406-1905" />
++  </head>
++  <body>
++    <script type="module">
++      import { initMuseumPageForCurrentPath } from "/museum/shared/page.js?v=20260406-1905";
++      initMuseumPageForCurrentPath();
++    </script>
++  </body>
++</html>
+diff --git a/museum/galleries/roman-world/index.html b/museum/galleries/roman-world/index.html
+new file mode 100644
+index 0000000..70f281d
+--- /dev/null
++++ b/museum/galleries/roman-world/index.html
+@@ -0,0 +1,16 @@
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="utf-8" />
++    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
++    <title>Roman World — Form Gallery</title>
++    <meta name="theme-color" content="#11131d" />
++    <link rel="stylesheet" href="/museum/shared/museum.css?v=20260406-1905" />
++  </head>
++  <body>
++    <script type="module">
++      import { initMuseumPageForCurrentPath } from "/museum/shared/page.js?v=20260406-1905";
++      initMuseumPageForCurrentPath();
++    </script>
++  </body>
++</html>
+diff --git a/museum/galleries/sub-saharan-africa/index.html b/museum/galleries/sub-saharan-africa/index.html
+new file mode 100644
+index 0000000..78fba60
+--- /dev/null
++++ b/museum/galleries/sub-saharan-africa/index.html
+@@ -0,0 +1,16 @@
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="utf-8" />
++    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
++    <title>Sub-Saharan Africa — Form Gallery</title>
++    <meta name="theme-color" content="#11131d" />
++    <link rel="stylesheet" href="/museum/shared/museum.css?v=20260406-1905" />
++  </head>
++  <body>
++    <script type="module">
++      import { initMuseumPageForCurrentPath } from "/museum/shared/page.js?v=20260406-1905";
++      initMuseumPageForCurrentPath();
++    </script>
++  </body>
++</html>
+diff --git a/museum/index.html b/museum/index.html
+index 2b11782..cd20292 100644
+--- a/museum/index.html
++++ b/museum/index.html
+@@ -8,7 +8,7 @@
+       name="description"
+       content="Form Gallery is a digital sculpture collection spanning antiquity through the twenty-first century. Browse by gallery, era, region, or maker."
+     />
+-    <meta name="theme-color" content="#f4efe7" />
++    <meta name="theme-color" content="#11131d" />
+     <meta property="og:title" content="Form Gallery — Digital Sculpture Collection" />
+     <meta
+       property="og:description"
+@@ -22,14 +22,14 @@
+       name="twitter:description"
+       content="Form Gallery is a digital sculpture collection spanning antiquity through the twenty-first century. Browse by gallery, era, region, or maker."
+     />
+-    <link rel="stylesheet" href="/museum/shared/museum.css?v=20260329-1522" />
++    <link rel="stylesheet" href="/museum/shared/museum.css?v=20260406-1905" />
+   </head>
+   <body>
+     <noscript>
+       <p style="margin:16px;font-family:IBM Plex Sans, Avenir Next, sans-serif;color:#2f2a22;">The museum viewer requires JavaScript.</p>
+     </noscript>
+     <script type="module">
+-      import { initMuseumPageForCurrentPath } from "/museum/shared/page.js?v=20260329-1522";
++      import { initMuseumPageForCurrentPath } from "/museum/shared/page.js?v=20260406-1905";
+       initMuseumPageForCurrentPath();
+     </script>
+   </body>
+diff --git a/museum/shared/lobby.js b/museum/shared/lobby.js
+index 11ee7ba..e64a5b3 100644
+--- a/museum/shared/lobby.js
++++ b/museum/shared/lobby.js
+@@ -1,3 +1,5 @@
++import { bindThemeToggles, bindUiModeToggles, renderThemeToggle, renderUiModeToggle } from "./theme.js";
++
+ const ANCIENT_ROOM_IDS = Object.freeze([
+   "egypt-mesopotamia",
+   "greek-classical",
+@@ -270,6 +272,10 @@ function buildBrowseItems(field, order, items) {
+   }));
+ }
+ 
++function buildGalleryHref(sectionId) {
++  return `/museum/galleries/${sectionId}/`;
++}
++
+ function sortEntries(entries) {
+   return entries.sort((a, b) => {
+     const aOrder = a.piece?.sortOrder ?? 9999;
+@@ -326,6 +332,7 @@ function buildSections(lobby, pieces) {
+         region: section.regionLabel || "",
+         spineId: section.spineId || "",
+         spineTitle: section.spineTitle || "",
++        href: buildGalleryHref(section.id),
+         dateRange: formatYearRange(items),
+         workCount: items.length,
+         items
+@@ -413,9 +420,36 @@ function pickFeaturedPiece(lobby, sections) {
+   return sections[0]?.items[0] || null;
+ }
+ 
++function pickSectionPreviewPiece(section) {
++  return (
++    section.items.find((item) => item.piece?.kind !== "sketchfab" && !/^https?:\/\//.test(item.href || "")) ||
++    null
++  );
++}
++
+ function heroPreviewHref(href) {
+   if (!href || /^https?:\/\//.test(href)) return "";
+-  return href.includes("?") ? `${href}&embed=hero` : `${href}?embed=hero`;
++  return href.includes("?") ? `${href}&embed=hero&theme=light` : `${href}?embed=hero&theme=light`;
++}
++
++function renderFilterData(entries) {
++  return `
++    <div class="gallery-filter-records" hidden>
++      ${entries
++        .map(
++          (entry) => `
++            <span
++              class="gallery-filter-record"
++              data-era="${entry.era}"
++              data-region="${entry.region}"
++              data-artist="${entry.artist}"
++              data-gallery="${entry.gallery}"
++            ></span>
++          `
++        )
++        .join("")}
++    </div>
++  `;
+ }
+ 
+ function renderBrowseGroup(group) {
+@@ -438,43 +472,83 @@ function renderBrowseGroup(group) {
+   `;
+ }
+ 
+-function renderEntry(entry) {
++function renderEntry(entry, options = {}) {
+   const linkLabel = entry.linkLabel || "View Piece";
+   const linkArrow = "&rarr;";
+   const linkAttrs = "";
++  const previewFrame = options.withPreview ? heroPreviewHref(entry.href) : "";
++  const loadingValue = options.eager ? "eager" : "lazy";
+ 
+   return `
+     <li class="work-item" id="work-${entry.id}" data-era="${entry.era}" data-region="${entry.region}" data-artist="${entry.artist}" data-gallery="${entry.gallery}">
+       <a class="piece" href="${entry.href}"${linkAttrs}>
+-        <h4 class="piece-title">${entry.title}</h4>
+-        ${entry.creator ? `<p class="piece-creator">${entry.creator}</p>` : ""}
+-        ${entry.date ? `<p class="piece-date">${entry.date}</p>` : ""}
+-        <span class="piece-link">${linkLabel} <span aria-hidden="true">${linkArrow}</span></span>
++        <div class="piece-media${previewFrame ? "" : " piece-media--placeholder"}">
++          ${previewFrame ? `
++            <iframe
++              class="piece-frame"
++              src="${previewFrame}"
++              tabindex="-1"
++              loading="${loadingValue}"
++              title="${entry.title} preview"
++            ></iframe>
++          ` : `<span class="piece-media-label">Interactive view</span>`}
++        </div>
++        <div class="piece-copy">
++          <h4 class="piece-title">${entry.title}</h4>
++          ${entry.creator ? `<p class="piece-creator">${entry.creator}</p>` : ""}
++          ${entry.date ? `<p class="piece-date">${entry.date}</p>` : ""}
++          <span class="piece-link">${linkLabel} <span aria-hidden="true">${linkArrow}</span></span>
++        </div>
+       </a>
+     </li>
+   `;
+ }
+ 
+-function renderSection(section) {
+-  const itemsHtml = section.items.map((entry) => renderEntry(entry)).join("");
++function renderSection(section, options = {}) {
++  const spotlightPiece = pickSectionPreviewPiece(section);
++  const spotlightFrame = spotlightPiece ? heroPreviewHref(spotlightPiece.href) : "";
++  const highlightTitles = section.items.slice(0, 3).map((entry) => `<li class="gallery-highlight-item">${entry.title}</li>`).join("");
++  const previewLoading = options.eagerPreview ? "eager" : "lazy";
+   return `
+-    <article class="gallery-card" id="rooms-${section.id}" data-work-count-label="${formatWorkCount(section.workCount)}">
+-      <div class="gallery-head">
+-        ${section.region ? `<p class="gallery-region">${section.region}</p>` : ""}
+-        <h3 class="gallery-title">${section.title}</h3>
+-        ${section.subtitle ? `<p class="gallery-description">${section.subtitle}</p>` : ""}
+-        <div class="gallery-meta">
+-          ${section.dateRange ? `<span>${section.dateRange}</span>` : ""}
+-          <span class="gallery-work-count" data-work-count>${formatWorkCount(section.workCount)}</span>
++    <section class="gallery-card gallery-card--summary" id="rooms-${section.id}" data-work-count-label="${formatWorkCount(section.workCount)}" aria-labelledby="gallery-${section.id}-title">
++      <a class="gallery-card-link" href="${section.href}" aria-label="Open ${section.title} gallery">
++        <div class="gallery-card-media">
++          ${spotlightFrame ? `
++            <iframe
++              class="gallery-card-frame"
++              src="${spotlightFrame}"
++              tabindex="-1"
++              loading="${previewLoading}"
++              title="${spotlightPiece.title} preview"
++            ></iframe>
++          ` : `<span class="gallery-card-media-fallback">Gallery preview</span>`}
+         </div>
+-      </div>
+-      <ul class="work-list">${itemsHtml}</ul>
+-    </article>
++        <div class="gallery-card-body">
++          <div class="gallery-head gallery-head--summary">
++            ${section.region ? `<span class="gallery-region">${section.region}</span>` : ""}
++            <h3 class="gallery-title" id="gallery-${section.id}-title">${section.title}</h3>
++            ${section.subtitle ? `<span class="gallery-description">${section.subtitle}</span>` : ""}
++            <span class="gallery-meta">
++              ${section.dateRange ? `<span>${section.dateRange}</span>` : ""}
++              <span class="gallery-work-count" data-work-count>${formatWorkCount(section.workCount)}</span>
++            </span>
++          </div>
++          ${highlightTitles ? `
++            <div class="gallery-highlights">
++              <span class="gallery-highlights-label">Highlights</span>
++              <ul class="gallery-highlight-list">${highlightTitles}</ul>
++            </div>
++          ` : ""}
++          <span class="piece-link gallery-card-cta">Open gallery <span aria-hidden="true">&rarr;</span></span>
++        </div>
++      </a>
++      ${renderFilterData(section.items)}
++    </section>
+   `;
+ }
+ 
+-function renderSectionGroup(group) {
+-  const sectionsHtml = group.sections.map((section) => renderSection(section)).join("");
++function renderSectionGroup(group, renderSectionCard) {
++  const sectionsHtml = group.sections.map((section) => renderSectionCard(section)).join("");
+   const galleryLabel = group.galleryCount === 1 ? "gallery" : "galleries";
+ 
+   return `
+@@ -491,6 +565,15 @@ function renderSectionGroup(group) {
+   `;
+ }
+ 
++function renderGalleryWorkGrid(section, options = {}) {
++  const eagerCount = options.eagerCount ?? 4;
++  const itemsHtml = section.items
++    .map((entry, index) => renderEntry(entry, { withPreview: true, eager: index < eagerCount }))
++    .join("");
++
++  return `<ul class="work-list work-list--gallery">${itemsHtml}</ul>`;
++}
++
+ function restoreHashPosition() {
+   const hash = (window.location.hash || "").replace(/^#/, "");
+   if (!hash) return;
+@@ -530,12 +613,11 @@ function bindLobbyFilters() {
+     }
+ 
+     for (const card of galleryCards) {
+-      const works = Array.from(card.querySelectorAll(".work-item"));
++      const works = Array.from(card.querySelectorAll(".gallery-filter-record"));
+       let visibleCount = 0;
+ 
+       for (const work of works) {
+         const isVisible = !hasActiveFilter || work.dataset[group] === value;
+-        work.hidden = !isVisible;
+         if (isVisible) {
+           visibleCount += 1;
+         }
+@@ -613,9 +695,13 @@ export function renderMuseumLobby(lobby, pieces) {
+   ];
+ 
+   const browseGroupsHtml = browseGroups.map((group) => renderBrowseGroup(group)).join("");
+-  const sectionsHtml = sectionGroups.map((group) => renderSectionGroup(group)).join("");
++  let summaryIndex = 0;
++  const sectionsHtml = sectionGroups
++    .map((group) => renderSectionGroup(group, (section) => renderSection(section, { eagerPreview: summaryIndex++ < 4 })))
++    .join("");
+   const recentAdditionsHtml = recentAdditions.map((entry) => {
+     const previewFrame = heroPreviewHref(entry.href);
++    const linkLabel = entry.linkLabel || "View Piece";
+     return `
+       <li class="new-addition-item">
+         <a class="new-addition-card" href="${entry.href}" aria-label="Open ${entry.title}">
+@@ -630,12 +716,20 @@ export function renderMuseumLobby(lobby, pieces) {
+               ></iframe>
+             ` : ""}
+           </span>
+-          <span class="new-addition-meta">
+-            <span class="new-addition-gallery">${entry.gallery}</span>
+-            <span class="new-addition-title">${entry.title}</span>
+-            ${entry.creator ? `<span class="new-addition-creator">${entry.creator}</span>` : ""}
+-            ${entry.date ? `<span class="new-addition-date">${entry.date}</span>` : ""}
+-            <span class="piece-link">${entry.linkLabel || "View Piece"} <span aria-hidden="true">&rarr;</span></span>
++          <span class="new-addition-body">
++            <span class="new-addition-header">
++              <span class="new-addition-meta-row">
++                <span class="new-addition-gallery">${entry.gallery}</span>
++                ${entry.date ? `<span class="new-addition-date">${entry.date}</span>` : ""}
++              </span>
++              <span class="new-addition-title-block">
++                <span class="new-addition-title">${entry.title}</span>
++                ${entry.creator ? `<span class="new-addition-creator">${entry.creator}</span>` : ""}
++              </span>
++            </span>
++            <span class="new-addition-footer">
++              <span class="piece-link">${linkLabel} <span aria-hidden="true">&rarr;</span></span>
++            </span>
+           </span>
+         </a>
+       </li>
+@@ -649,6 +743,19 @@ export function renderMuseumLobby(lobby, pieces) {
+   const regionCount = browseGroups.find((group) => group.id === "region")?.items.length || 0;
+   const makerCount = browseGroups.find((group) => group.id === "artist")?.items.length || 0;
+   const collectionMeta = `${entries.length} works • ${sections.length} galleries • ${regionCount} regions • ${makerCount} makers`;
++  const pageActions = [
++    lobby.tourHref ? `<a class="explore-button" href="${lobby.tourHref}">${lobby.tourLabel || "Enter 3D Tour"}</a>` : "",
++    renderUiModeToggle({ className: "ui-mode-toggle--hero" }),
++    renderThemeToggle({ className: "theme-toggle--hero" })
++  ]
++    .filter(Boolean)
++    .join("");
++  const tourAction = `
++    <div class="page-actions">
++      ${pageActions}
++      ${lobby.tourNote ? `<p class="page-action-note">${lobby.tourNote}</p>` : ""}
++    </div>
++  `;
+ 
+   document.body.innerHTML = `
+     <a class="skip-link" href="#main-content">Skip to collection content</a>
+@@ -661,6 +768,7 @@ export function renderMuseumLobby(lobby, pieces) {
+         <h1 class="page-heading">${titleText}</h1>
+         <p class="page-subtitle">${lobby.subtitle || ""}</p>
+         <p class="page-meta">${collectionMeta}</p>
++        ${tourAction}
+       </header>
+ 
+       <main class="stage" id="main-content">
+@@ -732,6 +840,152 @@ export function renderMuseumLobby(lobby, pieces) {
+     </div>
+   `;
+ 
++  bindThemeToggles(document.body);
++  bindUiModeToggles(document.body);
+   bindLobbyFilters();
+   restoreHashPosition();
+ }
++
++export function renderMuseumGalleryIndex(lobby, pieces) {
++  const sections = buildSections(lobby, pieces);
++  const sectionGroups = buildSectionGroups(lobby, sections);
++  const entries = sections.flatMap((section) => section.items);
++  const brandWords = String(lobby.brand || "FORM GALLERY").trim().split(/\s+/);
++  const brandForm = brandWords[0] || "FORM";
++  const brandGallery = brandWords.slice(1).join(" ") || "GALLERY";
++  let summaryIndex = 0;
++  const sectionsHtml = sectionGroups
++    .map((group) => renderSectionGroup(group, (section) => renderSection(section, { eagerPreview: summaryIndex++ < 6 })))
++    .join("");
++
++  document.body.innerHTML = `
++    <a class="skip-link" href="#main-content">Skip to galleries</a>
++    <div class="app lobby-app gallery-directory-app">
++      <header class="museum-header museum-header--simple">
++        <nav class="gallery-breadcrumbs" aria-label="Breadcrumb">
++          <a href="/museum/">Atrium</a>
++          <span aria-hidden="true">/</span>
++          <span aria-current="page">Galleries</span>
++        </nav>
++        <p class="page-title page-title--progressive" aria-label="${lobby.brand || "FORM GALLERY"}">
++          <span class="page-title-form">${brandForm}</span>
++          <span class="page-title-gallery">${brandGallery}</span>
++        </p>
++        <h1 class="page-heading">Galleries</h1>
++        <p class="page-subtitle">Browse the collection by gallery and open a dedicated room page for the full work list.</p>
++        <p class="page-meta">${sections.length} galleries • ${entries.length} works</p>
++        <div class="page-actions">
++          <a class="explore-button" href="/museum/">Return to Atrium</a>
++        </div>
++      </header>
++
++      <main class="stage" id="main-content">
++        <section class="rooms-section rooms-section--directory" aria-labelledby="gallery-directory-title">
++          <div class="section-head">
++            <div>
++              <p class="section-kicker">Collection Galleries</p>
++              <h2 class="section-title" id="gallery-directory-title">Browse by gallery</h2>
++            </div>
++          </div>
++          ${sectionsHtml}
++        </section>
++      </main>
++    </div>
++  `;
++
++  bindThemeToggles(document.body);
++  bindUiModeToggles(document.body);
++  restoreHashPosition();
++}
++
++export function renderMuseumGalleryPage(lobby, pieces, sectionId) {
++  const sections = buildSections(lobby, pieces);
++  const section = sections.find((entry) => entry.id === sectionId);
++  if (!section) {
++    throw new Error(`Unknown gallery section: ${sectionId}`);
++  }
++
++  const brandWords = String(lobby.brand || "FORM GALLERY").trim().split(/\s+/);
++  const brandForm = brandWords[0] || "FORM";
++  const brandGallery = brandWords.slice(1).join(" ") || "GALLERY";
++  const spotlightPiece = pickSectionPreviewPiece(section) || section.items[0] || null;
++  const heroFrame = spotlightPiece ? heroPreviewHref(spotlightPiece.href) : "";
++  const currentIndex = sections.findIndex((entry) => entry.id === section.id);
++  const previousSection = currentIndex > 0 ? sections[currentIndex - 1] : null;
++  const nextSection = currentIndex < sections.length - 1 ? sections[currentIndex + 1] : null;
++  const galleryMeta = [section.dateRange, formatWorkCount(section.workCount), section.region].filter(Boolean).join(" • ");
++  const sectionCopy = section.subtitle || [section.spineTitle, section.region].filter(Boolean).join(" • ");
++
++  document.body.innerHTML = `
++    <a class="skip-link" href="#main-content">Skip to gallery works</a>
++    <div class="app lobby-app gallery-page-app">
++      <header class="museum-header museum-header--simple museum-header--gallery">
++        <nav class="gallery-breadcrumbs" aria-label="Breadcrumb">
++          <a href="/museum/">Atrium</a>
++          <span aria-hidden="true">/</span>
++          <a href="/museum/galleries/">Galleries</a>
++          <span aria-hidden="true">/</span>
++          <span aria-current="page">${section.title}</span>
++        </nav>
++        <p class="page-title page-title--progressive" aria-label="${lobby.brand || "FORM GALLERY"}">
++          <span class="page-title-form">${brandForm}</span>
++          <span class="page-title-gallery">${brandGallery}</span>
++        </p>
++        <h1 class="page-heading">${section.title}</h1>
++        <p class="page-subtitle">${sectionCopy}</p>
++        <p class="page-meta">${galleryMeta}</p>
++        <div class="page-actions">
++          <a class="explore-button" href="/museum/">Return to Atrium</a>
++          <a class="explore-button" href="/museum/galleries/">All Galleries</a>
++          ${previousSection ? `<a class="explore-button" href="${previousSection.href}">Previous Gallery</a>` : ""}
++          ${nextSection ? `<a class="explore-button" href="${nextSection.href}">Next Gallery</a>` : ""}
++        </div>
++      </header>
++
++      <main class="stage gallery-stage" id="main-content">
++        ${spotlightPiece ? `
++          <section class="featured-work gallery-featured-work" aria-labelledby="gallery-highlight-title">
++            <div class="featured-copy">
++              <p class="featured-label">Gallery Highlight</p>
++              <h2 class="featured-title" id="gallery-highlight-title">${spotlightPiece.title}</h2>
++              ${(spotlightPiece.creator || spotlightPiece.date) ? `
++                <p class="featured-artist">
++                  ${spotlightPiece.creator || ""}
++                  ${spotlightPiece.creator && spotlightPiece.date ? " • " : ""}
++                  ${spotlightPiece.date || ""}
++                </p>
++              ` : ""}
++              <a class="explore-button" href="${spotlightPiece.href}">Explore the Work</a>
++            </div>
++            <a class="sculpture-stage sculpture-stage--link" href="${spotlightPiece.href}" aria-label="Open ${spotlightPiece.title}">
++              ${heroFrame ? `
++                <iframe
++                  class="hero-frame"
++                  src="${heroFrame}"
++                  tabindex="-1"
++                  loading="eager"
++                  title="${spotlightPiece.title} preview"
++                ></iframe>
++              ` : ""}
++            </a>
++          </section>
++        ` : ""}
++
++        <section class="gallery-page-section" aria-labelledby="gallery-works-title">
++          <div class="section-head">
++            <div>
++              <p class="section-kicker">Gallery Works</p>
++              <h2 class="section-title" id="gallery-works-title">${section.title}</h2>
++            </div>
++          </div>
++          <p class="section-sub">${galleryMeta}</p>
++          ${renderGalleryWorkGrid(section, { eagerCount: 6 })}
++        </section>
++      </main>
++    </div>
++  `;
++
++  bindThemeToggles(document.body);
++  bindUiModeToggles(document.body);
++  restoreHashPosition();
++}
+diff --git a/museum/shared/museum.css b/museum/shared/museum.css
+index 644dda8..e87e6aa 100644
+--- a/museum/shared/museum.css
++++ b/museum/shared/museum.css
+@@ -1,26 +1,99 @@
+ :root {
+-  --bg0: #f4efe7;
+-  --bg1: #e6dbce;
+-  --bg2: #c9b39a;
+-  --panel: #f7f3ecf0;
+-  --panel-border: #d6c6b1;
+-  --text: #27211b;
+-  --muted: #6b5f52;
+-  --card: #f7f2ea;
+-  --card-border: #d8c8b4;
+-  --link: #564633;
+-  --accent-bronze: #7a6243;
+-  --accent-graphite: #302922;
+-  --surface-paper: #fbf7f1;
+-  --surface-plaster: #f2e9dd;
+-  --surface-stone: #e8ddcf;
+-  --shadow-soft: #4e38180b;
+-  --shadow-deep: #4a351516;
++  color-scheme: light;
++  --bg0: #f6f3ed;
++  --bg1: #ece7de;
++  --bg2: #d7cfc1;
++  --panel: #f5f2ebf2;
++  --panel-border: #d4cec3;
++  --text: #171513;
++  --muted: #6a6258;
++  --card: #fbf9f4;
++  --card-border: #d6d0c6;
++  --link: #1d1a17;
++  --accent-bronze: #7f6d58;
++  --accent-graphite: #161411;
++  --surface-paper: #fbf9f4;
++  --surface-plaster: #f2ede5;
++  --surface-stone: #e5ddd0;
++  --shadow-soft: #17120d08;
++  --shadow-deep: #17120d14;
++  --page-glow: #ffffffb0;
++  --page-gradient-start: #f7f4ef;
++  --page-gradient-end: #eee8df;
++  --lobby-glow: #ffffff72;
++  --lobby-gradient-start: #f8f5f0;
++  --lobby-gradient-end: #efebe3;
++  --panel-gradient-start: #f8f5ef;
++  --panel-gradient-end: #f1ece4;
++  --panel-highlight: #ffffffc4;
++  --stage-glow: #ffffff8e;
++  --stage-gradient-start: #f0ebe1;
++  --stage-gradient-mid: #e7dfd2;
++  --stage-gradient-end: #ddd3c5;
++  --focus-surface: #f7f4ed;
++  --focus-outline: #171513;
++  --focus-ring: #17151322;
++  --toggle-bg: #f6f3ed;
++  --toggle-border: #c7c0b5;
++  --toggle-text: #161411;
++  --toggle-shadow: #17120d10;
++  --toggle-swatch-day: #f2cb85;
++  --toggle-swatch-night: #6a5846;
++  --editorial-radius: 6px;
++  --editorial-radius-lg: 10px;
++  --editorial-radius-pill: 999px;
++  --editorial-rule: #1b18141c;
++  --editorial-shadow: 0 18px 40px #17120d0f;
+   --font-ui: "IBM Plex Sans", "Avenir Next", sans-serif;
+   --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+   --serif-display: var(--font-display);
+ }
+ 
++:root[data-theme="dark"] {
++  color-scheme: dark;
++  --bg0: #11131d;
++  --bg1: #171a27;
++  --bg2: #323952;
++  --panel: #161926f0;
++  --panel-border: #434c63;
++  --text: #f5eff1;
++  --muted: #b7bccd;
++  --card: #171b29;
++  --card-border: #465069;
++  --link: #f8f2f4;
++  --accent-bronze: #efc2ad;
++  --accent-graphite: #f5eff1;
++  --surface-paper: #161926;
++  --surface-plaster: #1b1f2e;
++  --surface-stone: #232839;
++  --shadow-soft: #00000032;
++  --shadow-deep: #00000052;
++  --page-glow: #f2c3af16;
++  --page-gradient-start: #11131d;
++  --page-gradient-end: #0c0f17;
++  --lobby-glow: #f4c6b312;
++  --lobby-gradient-start: #151928;
++  --lobby-gradient-end: #101320;
++  --panel-gradient-start: #1a1e2d;
++  --panel-gradient-end: #141723;
++  --panel-highlight: #ffffff0d;
++  --stage-glow: #c8d8ff12;
++  --stage-gradient-start: #23283a;
++  --stage-gradient-mid: #1a1f2d;
++  --stage-gradient-end: #121624;
++  --focus-surface: #171b28;
++  --focus-outline: #f5eff1;
++  --focus-ring: #f5eff133;
++  --toggle-bg: #1a1e2c;
++  --toggle-border: #59637b;
++  --toggle-text: #f5eff1;
++  --toggle-shadow: #00000033;
++  --toggle-swatch-day: #f1b79d;
++  --toggle-swatch-night: #aeb8ff;
++  --editorial-rule: #f5eff118;
++  --editorial-shadow: 0 20px 44px #00000042;
++}
++
+ * {
+   box-sizing: border-box;
+ }
+@@ -31,8 +104,8 @@ body {
+   width: 100%;
+   height: 100%;
+   background:
+-    radial-gradient(circle at 16% 0%, #ffffffba 0%, transparent 26%),
+-    linear-gradient(180deg, #f5f0e8 0%, #eee5d9 100%);
++    radial-gradient(circle at 16% 0%, var(--page-glow) 0%, transparent 26%),
++    linear-gradient(180deg, var(--page-gradient-start) 0%, var(--page-gradient-end) 100%);
+   color: var(--text);
+   font-family: "IBM Plex Sans", "Avenir Next", sans-serif;
+   overscroll-behavior: none;
+@@ -97,8 +170,8 @@ a {
+ .app.lobby-app {
+   min-height: 100%;
+   background:
+-    radial-gradient(circle at top right, #ddc39f1b 0%, transparent 24%),
+-    linear-gradient(180deg, #f4efe7 0%, #ede3d7 100%);
++    radial-gradient(circle at top right, var(--lobby-glow) 0%, transparent 24%),
++    linear-gradient(180deg, var(--lobby-gradient-start) 0%, var(--lobby-gradient-end) 100%);
+ }
+ 
+ .panel {
+@@ -113,13 +186,13 @@ a {
+   align-content: start;
+   gap: 18px;
+   height: 100%;
+-  padding: 28px 24px 24px;
++  padding: 28px 26px 30px;
+   overflow: auto;
+   border-right: 1px solid var(--panel-border);
+   border-bottom: 0;
+   background:
+-    linear-gradient(180deg, #faf6ef 0%, #f2e9dc 100%);
+-  box-shadow: inset -1px 0 0 #fffaf4;
++    linear-gradient(180deg, var(--panel-gradient-start) 0%, var(--panel-gradient-end) 100%);
++  box-shadow: inset -1px 0 0 var(--panel-highlight);
+ }
+ 
+ .title {
+@@ -136,7 +209,14 @@ a {
+ 
+ .viewer-header {
+   display: grid;
+-  gap: 22px;
++  gap: 24px;
++}
++
++.viewer-utility-row {
++  display: flex;
++  flex-wrap: wrap;
++  gap: 10px;
++  justify-content: flex-end;
+ }
+ 
+ .viewer-object {
+@@ -156,17 +236,17 @@ a {
+ .viewer-title {
+   margin: 0;
+   font-family: var(--font-display);
+-  font-size: clamp(30px, 3vw, 34px);
+-  line-height: 1.16;
++  font-size: clamp(32px, 3.1vw, 38px);
++  line-height: 1.05;
+   font-weight: 600;
+-  letter-spacing: -0.02em;
++  letter-spacing: -0.035em;
+   color: var(--text);
+ }
+ 
+ .viewer-artist {
+   margin: 0;
+-  font-size: 17px;
+-  line-height: 1.58;
++  font-size: 15px;
++  line-height: 1.62;
+   color: #655d54;
+ }
+ 
+@@ -174,16 +254,16 @@ a {
+ .viewer-dimensions,
+ .viewer-location {
+   margin: 0;
+-  font-size: 16px;
+-  line-height: 1.6;
++  font-size: 14px;
++  line-height: 1.68;
+   color: #655d54;
+ }
+ 
+ .viewer-meta {
+   display: grid;
+   gap: 12px;
+-  padding-top: 16px;
+-  border-top: 1px solid #d7cec2;
++  padding-top: 20px;
++  border-top: 1px solid var(--editorial-rule);
+ }
+ 
+ .viewer-section-label {
+@@ -198,9 +278,10 @@ a {
+ .viewer-stats {
+   margin: 0;
+   color: #62584c;
+-  font-size: 13px;
+-  line-height: 1.6;
+-  letter-spacing: 0.03em;
++  font-size: 12px;
++  line-height: 1.68;
++  letter-spacing: 0.08em;
++  text-transform: uppercase;
+ }
+ 
+ .viewer-source {
+@@ -232,12 +313,12 @@ a {
+   position: sticky;
+   top: 0;
+   z-index: 5;
+-  padding: 30px 36px 24px;
++  padding: 34px 40px 28px;
+   background:
+-    linear-gradient(180deg, #faf7f2 0%, #f2e9dc 100%);
++    linear-gradient(180deg, #fbf8f3 0%, #f1ede5 100%);
+   box-shadow:
+     0 1px 0 #ffffffb8 inset,
+-    0 12px 28px #6f533010;
++    0 18px 42px #17120d10;
+ }
+ 
+ .lobby-panel-inner {
+@@ -316,17 +397,17 @@ a {
+ .lobby-title {
+   margin-top: 14px;
+   font-family: var(--font-display);
+-  font-size: clamp(42px, 5vw, 76px);
+-  line-height: 0.92;
+-  letter-spacing: -0.05em;
++  font-size: clamp(44px, 5.2vw, 82px);
++  line-height: 0.88;
++  letter-spacing: -0.06em;
+   color: var(--accent-graphite);
+ }
+ 
+ .lobby-sub {
+   max-width: 62ch;
+-  margin: 20px 0 0;
+-  font-size: 15px;
+-  line-height: 1.76;
++  margin: 18px 0 0;
++  font-size: 14px;
++  line-height: 1.8;
+   color: #5b5146;
+ }
+ 
+@@ -342,13 +423,11 @@ a {
+   margin: 0;
+   min-height: 108px;
+   padding: 18px 18px 16px;
+-  border: 1px solid #d9caba;
+-  border-radius: 14px;
++  border: 1px solid var(--card-border);
++  border-radius: var(--editorial-radius-lg);
+   background:
+-    linear-gradient(180deg, #fcfaf5 0%, #f3ebdf 100%);
+-  box-shadow:
+-    inset 0 1px 0 #fffaf6,
+-    0 8px 20px #5b45220b;
++    linear-gradient(180deg, #fcfaf6 0%, #f5f0e7 100%);
++  box-shadow: 0 12px 28px #17120d08;
+ }
+ 
+ .lobby-stat::before {
+@@ -389,7 +468,7 @@ a {
+   align-items: end;
+   margin-top: 34px;
+   padding-top: 24px;
+-  border-top: 1px solid #ded1bf;
++  border-top: 1px solid var(--editorial-rule);
+ }
+ 
+ .lobby-view-field {
+@@ -435,19 +514,17 @@ a {
+   width: 100%;
+   min-height: 48px;
+   padding: 0 42px 0 16px;
+-  border: 1px solid #d1c0ac;
+-  border-radius: 12px;
++  border: 1px solid #d2cbc0;
++  border-radius: var(--editorial-radius);
+   background:
+-    linear-gradient(180deg, #fdf9f2 0%, #f4eadc 100%);
+-  color: #241d16;
++    linear-gradient(180deg, #fffdf9 0%, #f6f1e9 100%);
++  color: #1f1b18;
+   font-family: var(--font-ui);
+   font-size: 14px;
+   font-weight: 600;
+   letter-spacing: 0.01em;
+   appearance: none;
+-  box-shadow:
+-    inset 0 1px 0 #fffaf4,
+-    0 6px 16px #5a412008;
++  box-shadow: 0 10px 24px #17120d08;
+ }
+ 
+ .lobby-view-note {
+@@ -470,9 +547,9 @@ a {
+   align-items: center;
+   gap: 10px;
+   padding: 9px 13px;
+-  border: 1px solid #d4c7b7;
+-  border-radius: 999px;
+-  background: #f9f4ec;
++  border: 1px solid #d4cec3;
++  border-radius: var(--editorial-radius-pill);
++  background: #fbf8f3;
+   text-decoration: none;
+   color: inherit;
+   transition:
+@@ -484,9 +561,9 @@ a {
+ 
+ .lobby-jump:hover {
+   transform: translateY(-1px);
+-  border-color: #9a7d57;
+-  background: #fffaf3;
+-  box-shadow: 0 10px 16px #6f55300f;
++  border-color: #181512;
++  background: #fffdf8;
++  box-shadow: 0 12px 22px #17120d10;
+ }
+ 
+ .lobby-jump-label {
+@@ -526,26 +603,17 @@ a {
+ }
+ 
+ .lobby-app .stage::before {
+-  content: "";
+-  position: fixed;
+-  inset: 120px 0 auto;
+-  height: 180px;
+-  background:
+-    linear-gradient(180deg, #f8f3ea00 0%, #f3eadb66 55%, #efe6d800 100%);
+-  pointer-events: none;
+-  z-index: 0;
++  content: none;
+ }
+ 
+ .lobby-section {
+   position: relative;
+   scroll-margin-top: 132px;
+-  padding: 20px;
+-  border: 1px solid #d8cab8;
+-  border-radius: 18px;
+-  background: linear-gradient(180deg, #fbf8f2 0%, #f3eadf 100%);
+-  box-shadow:
+-    0 14px 28px var(--shadow-soft),
+-    inset 0 1px 0 #fffaf5;
++  padding: 22px 22px 20px;
++  border: 1px solid var(--card-border);
++  border-radius: var(--editorial-radius-lg);
++  background: linear-gradient(180deg, #fdfbf7 0%, #f4efe8 100%);
++  box-shadow: var(--editorial-shadow);
+ }
+ 
+ .lobby-section::after {
+@@ -578,18 +646,18 @@ a {
+ .section-title {
+   margin: 9px 0 0;
+   font-family: var(--font-display);
+-  font-size: clamp(24px, 2.4vw, 34px);
+-  line-height: 1;
++  font-size: clamp(26px, 2.6vw, 36px);
++  line-height: 0.96;
+   color: var(--accent-graphite);
+-  letter-spacing: -0.028em;
++  letter-spacing: -0.04em;
+   text-transform: none;
+ }
+ 
+ .section-sub {
+   margin: 10px 0 0;
+   color: #665c50;
+-  font-size: 13px;
+-  line-height: 1.62;
++  font-size: 12px;
++  line-height: 1.72;
+   letter-spacing: 0.01em;
+   max-width: 46ch;
+ }
+@@ -611,10 +679,10 @@ a {
+   margin: 0;
+   white-space: nowrap;
+   font-size: 10px;
+-  color: #66563f;
+-  background: #faf5ed;
+-  border: 1px solid #d8c9b6;
+-  border-radius: 999px;
++  color: #50453a;
++  background: #faf7f1;
++  border: 1px solid #d5cec2;
++  border-radius: var(--editorial-radius-pill);
+   padding: 8px 11px 7px;
+   font-variant-numeric: tabular-nums;
+   text-transform: uppercase;
+@@ -639,13 +707,11 @@ a {
+   align-items: end;
+   text-decoration: none;
+   color: inherit;
+-  border: 1px solid #e0d4c4;
+-  border-radius: 12px;
+-  background: linear-gradient(180deg, #fcfaf6 0%, #f6eee4 100%);
++  border: 1px solid var(--card-border);
++  border-radius: var(--editorial-radius);
++  background: linear-gradient(180deg, #fffdf9 0%, #f6f1e9 100%);
+   padding: 14px 15px 14px;
+-  box-shadow:
+-    0 4px 12px #70522a06,
+-    inset 0 1px 0 #fffaf5;
++  box-shadow: 0 10px 24px #17120d08;
+   transition:
+     transform 180ms ease,
+     box-shadow 180ms ease,
+@@ -660,11 +726,9 @@ a {
+ 
+ .piece:hover {
+   transform: translateY(-2px);
+-  border-color: #a3845d;
+-  background: linear-gradient(180deg, #fdfaf6 0%, #f3e9db 100%);
+-  box-shadow:
+-    0 10px 18px var(--shadow-deep),
+-    inset 0 1px 0 #fffaf6;
++  border-color: #181512;
++  background: linear-gradient(180deg, #fffefb 0%, #f3ede5 100%);
++  box-shadow: 0 16px 28px #17120d12;
+ }
+ 
+ .piece-copy {
+@@ -682,9 +746,9 @@ a {
+   margin: 0;
+   color: #2c241d;
+   font-family: var(--font-display);
+-  font-size: 19px;
+-  line-height: 1.1;
+-  letter-spacing: -0.024em;
++  font-size: 20px;
++  line-height: 1.02;
++  letter-spacing: -0.034em;
+ }
+ 
+ .piece:hover .piece-title,
+@@ -785,8 +849,8 @@ a {
+ 
+ .viewer-controls {
+   margin-top: 4px;
+-  border-top: 1px solid #d8d2c7;
+-  padding-top: 18px;
++  border-top: 1px solid var(--editorial-rule);
++  padding-top: 20px;
+ }
+ 
+ .viewer-controls summary {
+@@ -831,7 +895,7 @@ a {
+ 
+ .viewer-action-row {
+   padding-top: 4px;
+-  border-top: 1px dashed #d9cfc2;
++  border-top: 1px solid var(--editorial-rule);
+ }
+ 
+ .viewer-controls-hint {
+@@ -840,35 +904,130 @@ a {
+   color: #72685b;
+   font-size: 13px;
+   line-height: 1.5;
+-  border-top: 1px dashed #d9cfc2;
++  border-top: 1px solid var(--editorial-rule);
+ }
+ 
+ .btn {
+-  border: 1px solid #a18f73;
+-  border-radius: 999px;
+-  background: #f4e9d8;
+-  color: #2d261f;
+-  font-size: 13px;
++  border: 1px solid #c7c0b5;
++  border-radius: var(--editorial-radius-pill);
++  background: #f7f3ed;
++  color: #171513;
++  font-size: 11px;
+   font-weight: 600;
+-  padding: 8px 14px;
++  letter-spacing: 0.12em;
++  text-transform: uppercase;
++  padding: 10px 14px 9px;
+   cursor: pointer;
+   transition:
+     background 160ms ease,
+     border-color 160ms ease,
+-    transform 160ms ease;
++    transform 160ms ease,
++    box-shadow 160ms ease;
+ }
+ 
+ .btn:hover {
+-  background: #efe1cd;
+-  border-color: #8f7857;
++  background: #fffdfa;
++  border-color: #171513;
++  transform: translateY(-1px);
++  box-shadow: 0 10px 18px #17120d10;
++}
++
++.theme-toggle,
++.ui-mode-toggle {
++  display: inline-flex;
++  align-items: center;
++  gap: 10px;
++  min-height: 40px;
++  border: 1px solid var(--toggle-border);
++  border-radius: 999px;
++  padding: 8px 14px;
++  background: var(--toggle-bg);
++  color: var(--toggle-text);
++  font: inherit;
++  font-size: 12px;
++  font-weight: 600;
++  letter-spacing: 0.08em;
++  text-transform: uppercase;
++  cursor: pointer;
++  box-shadow: 0 10px 20px var(--toggle-shadow);
++  transition:
++    transform 160ms ease,
++    border-color 160ms ease,
++    background 160ms ease,
++    color 160ms ease,
++    box-shadow 160ms ease;
++}
++
++.theme-toggle:hover,
++.ui-mode-toggle:hover {
+   transform: translateY(-1px);
+ }
+ 
++.theme-toggle-swatch {
++  width: 16px;
++  height: 16px;
++  border-radius: 999px;
++  background:
++    linear-gradient(135deg, var(--toggle-swatch-day) 0%, var(--toggle-swatch-night) 100%);
++  box-shadow:
++    inset 0 1px 2px #ffffff4a,
++    0 0 0 1px #00000014;
++}
++
++.ui-mode-toggle-glyph {
++  position: relative;
++  width: 16px;
++  height: 16px;
++  border-radius: 4px;
++  border: 1px solid #00000014;
++  background:
++    linear-gradient(180deg, #ffffffb8 0%, transparent 100%),
++    linear-gradient(180deg, #c8b79f 0%, #9f8a72 100%);
++  box-shadow: inset 0 1px 0 #ffffff8a;
++}
++
++.ui-mode-toggle-glyph::before,
++.ui-mode-toggle-glyph::after {
++  content: "";
++  position: absolute;
++  left: 3px;
++  right: 3px;
++  height: 1px;
++  background: #fff8efc8;
++}
++
++.ui-mode-toggle-glyph::before {
++  top: 5px;
++}
++
++.ui-mode-toggle-glyph::after {
++  bottom: 5px;
++}
++
++.theme-toggle--viewer {
++  margin-bottom: 4px;
++}
++
++.theme-toggle--hero,
++.theme-toggle--tour,
++.ui-mode-toggle--hero,
++.ui-mode-toggle--tour {
++  backdrop-filter: blur(8px);
++}
++
++.tour-toolbar-actions {
++  display: inline-flex;
++  align-items: center;
++  gap: 10px;
++  flex-wrap: wrap;
++  justify-content: flex-end;
++}
++
+ .source-card {
+   margin: 0 0 10px;
+   border: 1px solid var(--card-border);
+-  border-radius: 10px;
+-  background: linear-gradient(180deg, #f4ebdc 0%, #eee2cf 100%);
++  border-radius: var(--editorial-radius);
++  background: linear-gradient(180deg, #faf7f1 0%, #f2ece4 100%);
+   overflow: hidden;
+ }
+ 
+@@ -879,10 +1038,12 @@ a {
+   gap: 12px;
+   cursor: pointer;
+   list-style: none;
+-  padding: 10px 12px;
+-  color: #4f4333;
+-  font-size: 13px;
++  padding: 11px 12px;
++  color: #201c18;
++  font-size: 12px;
+   font-weight: 600;
++  letter-spacing: 0.08em;
++  text-transform: uppercase;
+ }
+ 
+ .source-card summary::-webkit-details-marker {
+@@ -905,8 +1066,8 @@ a {
+ .source-note {
+   margin: 0;
+   padding: 0 12px 10px;
+-  font-size: 13px;
+-  line-height: 1.6;
++  font-size: 12px;
++  line-height: 1.7;
+   color: #685d50;
+ }
+ 
+@@ -914,18 +1075,55 @@ a {
+   color: var(--link);
+ }
+ 
++.print-facts {
++  display: grid;
++  gap: 8px;
++  padding: 0 12px 12px;
++}
++
++.print-fact {
++  margin: 0;
++  font-size: 12px;
++  line-height: 1.7;
++  color: #685d50;
++}
++
++.print-steps {
++  margin: 0;
++  padding: 0 28px 12px 32px;
++  display: grid;
++  gap: 10px;
++  color: #64584a;
++}
++
++.print-step {
++  line-height: 1.68;
++  font-size: 12px;
++}
++
++.print-note,
++.print-links {
++  margin: 0;
++  padding: 0 12px 12px;
++  font-size: 12px;
++  line-height: 1.7;
++  color: #685d50;
++}
++
++.print-links a {
++  color: var(--link);
++}
++
+ #stage {
+   width: 100%;
+   height: 100%;
+   min-height: clamp(420px, 72vh, 960px);
+-  border: 1px solid #d8c8b4;
+-  border-radius: 28px;
++  border: 1px solid #d3cbc0;
++  border-radius: 18px;
+   overflow: hidden;
+   background:
+-    radial-gradient(circle at 50% 22%, #f1e8db 0%, #e7dbcb 58%, #e0d2c0 100%);
+-  box-shadow:
+-    0 22px 44px #5f47250f,
+-    inset 0 1px 0 #fff9f2;
++    radial-gradient(circle at 50% 22%, var(--stage-gradient-start) 0%, var(--stage-gradient-mid) 58%, var(--stage-gradient-end) 100%);
++  box-shadow: 0 24px 46px #17120d12;
+ }
+ 
+ .viewer-stage-shell {
+@@ -933,7 +1131,7 @@ a {
+   min-height: 0;
+   padding: 28px 28px 28px 14px;
+   background:
+-    radial-gradient(circle at 12% 12%, #ffffff96 0%, transparent 26%);
++    radial-gradient(circle at 12% 12%, var(--stage-glow) 0%, transparent 26%);
+ }
+ 
+ canvas {
+@@ -953,63 +1151,78 @@ canvas {
+   width: min(100%, 420px);
+   min-height: 220px;
+   margin: auto;
+-  padding: 28px 28px 26px;
++  padding: 30px 30px 28px;
+   display: grid;
+-  gap: 12px;
++  gap: 14px;
+   place-items: start;
+   align-content: center;
+   color: var(--muted);
+   font-size: 15px;
+   text-align: left;
+-  border: 1px solid #d8c8b4;
+-  border-radius: 24px;
++  border: 1px solid var(--card-border);
++  border-radius: 18px;
+   background:
+-    linear-gradient(180deg, #faf4eb 0%, #f1e6d8 100%);
++    linear-gradient(180deg, #fcfaf6 0%, #f3ede4 100%);
+   box-shadow:
+-    inset 0 1px 0 #fffaf4,
+-    0 18px 34px #5a45220f;
++    inset 0 1px 0 #ffffffc8,
++    0 22px 40px #17120d12;
+ }
+ 
+-.loading::before {
+-  content: "";
+-  width: 44px;
+-  height: 44px;
++.loading-eyebrow {
++  font-size: 10px;
++  font-weight: 700;
++  letter-spacing: 0.16em;
++  text-transform: uppercase;
++  color: #847466;
++}
++
++.loading-ornament {
++  width: min(100%, 170px);
++  display: grid;
++  gap: 7px;
++}
++
++.loading-ornament-line {
++  display: block;
++  height: 2px;
+   border-radius: 999px;
++  transform-origin: left center;
+   background:
+-    radial-gradient(circle at 35% 35%, #fff9f0 0%, #f4dfbe 45%, #d8b988 100%);
+-  box-shadow: 0 10px 20px #7a624311;
+-  animation: viewerPulse 2.2s ease-in-out infinite;
++    linear-gradient(90deg, #c0b09e30 0%, #c9b49f 44%, #efe2d1 100%);
++  animation: loadingSweep 1.8s ease-in-out infinite;
+ }
+ 
+-.loading-eyebrow {
+-  font-size: 11px;
+-  font-weight: 700;
+-  letter-spacing: 0.18em;
+-  text-transform: uppercase;
+-  color: #7a6a56;
++.loading-ornament-line:nth-child(2) {
++  width: 76%;
++  animation-delay: 0.14s;
++}
++
++.loading-ornament-line:nth-child(3) {
++  width: 54%;
++  animation-delay: 0.28s;
+ }
+ 
+ .loading-title {
+-  color: #3b3127;
+-  font-family: var(--font-display);
+-  font-size: clamp(24px, 2.6vw, 30px);
+-  line-height: 1.04;
+-  letter-spacing: -0.02em;
++  color: #2c2520;
++  font-family: var(--serif-display);
++  font-size: clamp(26px, 2.6vw, 32px);
++  line-height: 0.99;
++  letter-spacing: -0.015em;
+ }
+ 
+ .loading-message {
+-  color: #685d50;
+-  line-height: 1.65;
++  color: #64594e;
++  line-height: 1.7;
+ }
+ 
+ .loading[data-state="error"] {
+   background:
+-    linear-gradient(180deg, #faf0eb 0%, #f4e6dc 100%);
++    linear-gradient(180deg, #faf1ed 0%, #f3e5de 100%);
+ }
+ 
+-.loading[data-state="error"]::before {
++.loading[data-state="error"] .loading-ornament-line {
+   background:
+-    radial-gradient(circle at 35% 35%, #fff8f5 0%, #efc8b7 42%, #cc937e 100%);
++    linear-gradient(90deg, #d3a29b2e 0%, #d7a5a0 44%, #f3d0cc 100%);
+ }
+ 
+ .system-state {
+@@ -1027,13 +1240,11 @@ canvas {
+   display: grid;
+   gap: 16px;
+   padding: 28px;
+-  border: 1px solid #d8c8b4;
+-  border-radius: 24px;
++  border: 1px solid var(--card-border);
++  border-radius: 18px;
+   background:
+-    linear-gradient(180deg, #faf6ef 0%, #f2e8da 100%);
+-  box-shadow:
+-    inset 0 1px 0 #fffaf4,
+-    0 18px 38px #5a452212;
++    linear-gradient(180deg, #faf6ef 0%, #f1ebe3 100%);
++  box-shadow: 0 20px 38px #17120d12;
+ }
+ 
+ .system-state-kicker {
+@@ -1066,13 +1277,15 @@ canvas {
+ .lobby-jump:focus-visible,
+ .lobby-view-select:focus-visible {
+   outline: none;
+-  border-color: #8d714b;
++  border-color: var(--focus-outline);
+   box-shadow:
+-    0 0 0 2px #f7f1e8,
+-    0 0 0 4px #8d714b33;
++    0 0 0 2px var(--focus-surface),
++    0 0 0 4px var(--focus-ring);
+ }
+ 
+ .btn:focus-visible,
++.theme-toggle:focus-visible,
++.ui-mode-toggle:focus-visible,
+ .browse-reset:focus-visible,
+ .explore-button:focus-visible,
+ .viewer-controls summary:focus-visible,
+@@ -1080,67 +1293,384 @@ canvas {
+ .sculpture-stage--link:focus-visible {
+   outline: none;
+   box-shadow:
+-    0 0 0 2px #f7f1e8,
+-    0 0 0 4px #8d714b33;
++    0 0 0 2px var(--focus-surface),
++    0 0 0 4px var(--focus-ring);
+ }
+ 
+-@supports (padding: max(0px)) {
+-  .panel {
+-    padding-top: max(12px, env(safe-area-inset-top));
+-    padding-bottom: max(10px, env(safe-area-inset-bottom));
+-  }
++.tour-toolbar {
++  display: flex;
++  align-items: center;
++  justify-content: space-between;
++  gap: 12px;
++  flex-wrap: wrap;
+ }
+ 
+-@media (max-width: 760px) {
+-  .control label {
+-    min-width: 78px;
+-  }
++:root[data-theme="dark"] .skip-link {
++  border-color: #5f6b87;
++  background: #1a2030;
++  color: #f5eef1;
++}
+ 
+-  .skip-link {
+-    left: 10px;
+-    right: 10px;
+-    width: auto;
+-    text-align: center;
+-  }
++:root[data-theme="dark"] .lobby-panel,
++:root[data-theme="dark"] .museum-header,
++:root[data-theme="dark"] .viewer-app .panel,
++:root[data-theme="dark"] .tour-panel {
++  color: var(--text);
+ }
+ 
+-@media (max-width: 1280px) {
+-  .lobby-hero {
+-    grid-template-columns: 1fr;
+-    gap: 18px;
+-  }
++:root[data-theme="dark"] .panel,
++:root[data-theme="dark"] .viewer-app .panel,
++:root[data-theme="dark"] .lobby-panel,
++:root[data-theme="dark"] .museum-header--simple,
++:root[data-theme="dark"] .tour-panel {
++  border-color: var(--panel-border);
++}
+ 
+-  .lobby-copy {
+-    max-width: 920px;
+-    padding-right: 0;
+-  }
++:root[data-theme="dark"] .lobby-panel {
++  background:
++    linear-gradient(180deg, #1b2132 0%, #141a28 100%);
++  box-shadow:
++    0 1px 0 #ffffff08 inset,
++    0 12px 28px #00000033;
++}
+ 
+-  .lobby-stats {
+-    max-width: 560px;
+-  }
++:root[data-theme="dark"] .tour-panel {
++  background:
++    linear-gradient(180deg, #1b2132f5 0%, #141a28f0 100%);
++  box-shadow: inset -1px 0 0 #ffffff08;
++}
++
++:root[data-theme="dark"] .viewer-kicker,
++:root[data-theme="dark"] .viewer-section-label,
++:root[data-theme="dark"] .viewer-stats,
++:root[data-theme="dark"] .lobby-brand,
++:root[data-theme="dark"] .lobby-eyebrow,
++:root[data-theme="dark"] .section-kicker,
++:root[data-theme="dark"] .page-meta,
++:root[data-theme="dark"] .browse-status,
++:root[data-theme="dark"] .chronology-kicker,
++:root[data-theme="dark"] .chronology-meta,
++:root[data-theme="dark"] .tour-kicker,
++:root[data-theme="dark"] .tour-loading-kicker,
++:root[data-theme="dark"] .tour-hud-title,
++:root[data-theme="dark"] .tour-fact-label {
++  color: #cabdd5;
++}
++
++:root[data-theme="dark"] .viewer-artist,
++:root[data-theme="dark"] .viewer-medium,
++:root[data-theme="dark"] .viewer-dimensions,
++:root[data-theme="dark"] .viewer-location,
++:root[data-theme="dark"] .section-sub,
++:root[data-theme="dark"] .page-subtitle,
++:root[data-theme="dark"] .page-action-note,
++:root[data-theme="dark"] .featured-artist,
++:root[data-theme="dark"] .new-addition-creator,
++:root[data-theme="dark"] .new-addition-date,
++:root[data-theme="dark"] .gallery-description,
++:root[data-theme="dark"] .gallery-meta,
++:root[data-theme="dark"] .tour-copy,
++:root[data-theme="dark"] .tour-note,
++:root[data-theme="dark"] .tour-loading-copy,
++:root[data-theme="dark"] .tour-hud-copy,
++:root[data-theme="dark"] .tour-piece-meta,
++:root[data-theme="dark"] .viewer-controls-hint,
++:root[data-theme="dark"] .source-copy,
++:root[data-theme="dark"] .source-links,
++:root[data-theme="dark"] .source-note,
++:root[data-theme="dark"] .print-fact,
++:root[data-theme="dark"] .print-step,
++:root[data-theme="dark"] .print-note,
++:root[data-theme="dark"] .print-links,
++:root[data-theme="dark"] .lobby-sub,
++:root[data-theme="dark"] .lobby-view-note {
++  color: #b2bbcf;
++}
++
++:root[data-theme="dark"] .viewer-meta,
++:root[data-theme="dark"] .viewer-controls,
++:root[data-theme="dark"] .viewer-action-row,
++:root[data-theme="dark"] .viewer-controls-hint,
++:root[data-theme="dark"] .lobby-viewbar,
++:root[data-theme="dark"] .section-head {
++  border-color: #465069;
++}
++
++:root[data-theme="dark"] .control label,
++:root[data-theme="dark"] .row label,
++:root[data-theme="dark"] .viewer-controls label,
++:root[data-theme="dark"] .viewer-toggle-row label,
++:root[data-theme="dark"] .control output,
++:root[data-theme="dark"] .viewer-controls summary,
++:root[data-theme="dark"] .meta-label,
++:root[data-theme="dark"] .tour-back,
++:root[data-theme="dark"] .piece-arrow,
++:root[data-theme="dark"] .browse-chip,
++:root[data-theme="dark"] .browse-group-title,
++:root[data-theme="dark"] .new-addition-gallery {
++  color: #e2c4d1;
++}
++
++:root[data-theme="dark"] .browse-count {
++  color: #b7bfd4;
++}
++
++:root[data-theme="dark"] .gallery-card {
++  color: #261f1a;
++}
++
++:root[data-theme="dark"] .gallery-region {
++  color: #7e665a;
++}
++
++:root[data-theme="dark"] .gallery-title {
++  color: #261f1a;
++}
++
++:root[data-theme="dark"] .gallery-spotlight-stage {
++  border-color: #c9bcae;
++  box-shadow:
++    inset 0 1px 0 #fffaf4,
++    0 16px 30px #5a452212;
++}
+ 
+-  .lobby-viewbar {
+-    grid-template-columns: 1fr;
+-  }
++:root[data-theme="dark"] .btn,
++:root[data-theme="dark"] .explore-button,
++:root[data-theme="dark"] .browse-reset,
++:root[data-theme="dark"] .tour-mobile-btn,
++:root[data-theme="dark"] .ui-mode-toggle {
++  border-color: #59647b;
++  background: #1f2433;
++  color: #f6eff1;
++}
+ 
+-  .lobby-grid {
+-    grid-template-columns: repeat(3, minmax(0, 1fr));
+-  }
++:root[data-theme="dark"] .btn:hover,
++:root[data-theme="dark"] .explore-button:hover,
++:root[data-theme="dark"] .ui-mode-toggle:hover,
++:root[data-theme="dark"] .tour-mobile-btn:active {
++  background: #272d3f;
++  border-color: #7c89a5;
+ }
+ 
+-@media (max-width: 1040px) {
+-  .lobby-grid {
+-    grid-template-columns: repeat(2, minmax(0, 1fr));
+-  }
++:root[data-theme="dark"] .ui-mode-toggle-glyph {
++  border-color: #ffffff14;
++  background:
++    linear-gradient(180deg, #ffffff16 0%, transparent 100%),
++    linear-gradient(180deg, #545b7c 0%, #31364d 100%);
++  box-shadow: inset 0 1px 0 #ffffff10;
++}
++
++:root[data-theme="dark"] .ui-mode-toggle-glyph::before,
++:root[data-theme="dark"] .ui-mode-toggle-glyph::after {
++  background: #f5eff1c4;
++}
++
++:root[data-theme="dark"] .source-card,
++:root[data-theme="dark"] .loading,
++:root[data-theme="dark"] .system-state-card,
++:root[data-theme="dark"] .lobby-stat,
++:root[data-theme="dark"] .lobby-section,
++:root[data-theme="dark"] .piece,
++:root[data-theme="dark"] .new-addition-card,
++:root[data-theme="dark"] .browse-group,
++:root[data-theme="dark"] .tour-status,
++:root[data-theme="dark"] .tour-fact,
++:root[data-theme="dark"] .tour-piece-item,
++:root[data-theme="dark"] .tour-loading-card,
++:root[data-theme="dark"] .tour-hud {
++  border-color: #48526a;
++  background:
++    linear-gradient(180deg, #1d2231 0%, #151927 100%);
++  box-shadow:
++    inset 0 1px 0 #ffffff08,
++    0 18px 34px #00000033;
+ }
+ 
+-@media (max-width: 820px) {
+-  .lobby-app .stage {
+-    padding: 16px 12px calc(20px + env(safe-area-inset-bottom));
+-  }
++:root[data-theme="dark"] .loading[data-state="error"] {
++  background:
++    linear-gradient(180deg, #2a1e27 0%, #1d1520 100%);
++}
+ 
+-  .lobby-panel {
+-    padding: 18px 12px 16px;
++:root[data-theme="dark"] .loading-ornament-line {
++  background:
++    linear-gradient(90deg, #f0c8bc2c 0%, #d8bfdc 46%, #b8c9bd 100%);
++}
++
++:root[data-theme="dark"] .loading[data-state="error"] .loading-ornament-line {
++  background:
++    linear-gradient(90deg, #efb5a95e 0%, #d2a3b8 48%, #f0d3cb 100%);
++}
++
++:root[data-theme="dark"] .system-state {
++  background:
++    radial-gradient(circle at top, #f2c3af20 0%, transparent 36%),
++    linear-gradient(180deg, #151925 0%, #10131d 100%);
++}
++
++:root[data-theme="dark"] .page-title-form {
++  color: rgb(245 239 241 / 0.36);
++}
++
++:root[data-theme="dark"] .page-title-gallery,
++:root[data-theme="dark"] .page-heading,
++:root[data-theme="dark"] .viewer-title,
++:root[data-theme="dark"] .chronology-title,
++:root[data-theme="dark"] .featured-title,
++:root[data-theme="dark"] .tour-title,
++:root[data-theme="dark"] .tour-loading-title,
++:root[data-theme="dark"] .tour-piece-title,
++:root[data-theme="dark"] .piece-title,
++:root[data-theme="dark"] .new-addition-title,
++:root[data-theme="dark"] .system-state-title {
++  color: #f6f0f2;
++}
++
++:root[data-theme="dark"] .piece-note {
++  color: #d8bac5;
++}
++
++:root[data-theme="dark"] .piece-creator {
++  color: #c4cede;
++}
++
++:root[data-theme="dark"] .piece-date {
++  color: #e2beb0;
++}
++
++:root[data-theme="dark"] .lobby-jump,
++:root[data-theme="dark"] .lobby-view-select,
++:root[data-theme="dark"] .section-count {
++  border-color: #4f5971;
++  background: #1a1e2b;
++  color: #f2eaed;
++  box-shadow: inset 0 1px 0 #ffffff08;
++}
++
++:root[data-theme="dark"] .lobby-jump-count {
++  background: #31374a;
++  color: #f0c8b5;
++}
++
++:root[data-theme="dark"] .lobby-jump:hover,
++:root[data-theme="dark"] .piece:hover,
++:root[data-theme="dark"] .new-addition-card:hover,
++:root[data-theme="dark"] .new-addition-card:focus-visible,
++:root[data-theme="dark"] .sculpture-stage--link:hover {
++  border-color: #8590af;
++  background:
++    linear-gradient(180deg, #23283a 0%, #1b1f2d 100%);
++  box-shadow:
++    inset 0 1px 0 #ffffff0d,
++    0 16px 28px #00000040;
++}
++
++:root[data-theme="dark"] .browse-chip.is-active,
++:root[data-theme="dark"] .browse-chip:hover,
++:root[data-theme="dark"] .browse-chip:focus-visible {
++  background: #272c3d;
++}
++
++:root[data-theme="dark"] .sculpture-stage,
++:root[data-theme="dark"] .new-addition-stage,
++:root[data-theme="dark"] #stage,
++:root[data-theme="dark"] .tour-stage-shell {
++  border-color: #465069;
++  box-shadow:
++    0 22px 44px #00000044,
++    inset 0 1px 0 #ffffff08;
++}
++
++:root[data-theme="dark"] .sculpture-stage,
++:root[data-theme="dark"] .new-addition-stage {
++  background: radial-gradient(ellipse at center, #252b3d 0%, #171b28 100%);
++}
++
++:root[data-theme="dark"] .sculpture-stage::before {
++  background: linear-gradient(90deg, transparent, #f1c0ad44, transparent);
++}
++
++:root[data-theme="dark"] .sculpture-stage::after,
++:root[data-theme="dark"] .lobby-app .stage::before {
++  background: radial-gradient(circle, #b9c8ff14 0%, transparent 72%);
++}
++
++:root[data-theme="dark"] .tour-shell {
++  background:
++    radial-gradient(circle at top left, #f1bea90f 0%, transparent 24%),
++    linear-gradient(180deg, #11131d 0%, #0d1018 100%);
++}
++
++:root[data-theme="dark"] .app.lobby-app {
++  background:
++    radial-gradient(circle at top left, #f1bea90f 0%, transparent 26%),
++    radial-gradient(circle at 82% 10%, #b7c7f41a 0%, transparent 22%),
++    radial-gradient(circle at 50% 100%, #d7b8ea12 0%, transparent 28%),
++    linear-gradient(180deg, #141827 0%, #0e1220 100%);
++}
++
++:root[data-theme="dark"] .tour-stage-shell {
++  background:
++    radial-gradient(circle at 22% 10%, #e9c0b114 0%, transparent 28%),
++    linear-gradient(180deg, #171b28 0%, #111420 100%);
++}
++
++@supports (padding: max(0px)) {
++  .panel {
++    padding-top: max(12px, env(safe-area-inset-top));
++    padding-bottom: max(10px, env(safe-area-inset-bottom));
++  }
++}
++
++@media (max-width: 760px) {
++  .control label {
++    min-width: 78px;
++  }
++
++  .skip-link {
++    left: 10px;
++    right: 10px;
++    width: auto;
++    text-align: center;
++  }
++}
++
++@media (max-width: 1280px) {
++  .lobby-hero {
++    grid-template-columns: 1fr;
++    gap: 18px;
++  }
++
++  .lobby-copy {
++    max-width: 920px;
++    padding-right: 0;
++  }
++
++  .lobby-stats {
++    max-width: 560px;
++  }
++
++  .lobby-viewbar {
++    grid-template-columns: 1fr;
++  }
++
++  .lobby-grid {
++    grid-template-columns: repeat(3, minmax(0, 1fr));
++  }
++}
++
++@media (max-width: 1040px) {
++  .lobby-grid {
++    grid-template-columns: repeat(2, minmax(0, 1fr));
++  }
++}
++
++@media (max-width: 820px) {
++  .lobby-app .stage {
++    padding: 16px 12px calc(20px + env(safe-area-inset-bottom));
++  }
++
++  .lobby-panel {
++    padding: 18px 12px 16px;
+   }
+ 
+   .lobby-hero {
+@@ -1295,8 +1825,9 @@ canvas {
+   }
+ }
+ 
+-.viewer-app--hero {
++.app.viewer-app.viewer-app--hero {
+   grid-template-rows: 1fr;
++  grid-template-columns: minmax(0, 1fr);
+ }
+ 
+ .viewer-app--hero .viewer-header,
+@@ -1316,8 +1847,38 @@ canvas {
+ }
+ 
+ .viewer-app--hero .loading {
++  width: min(calc(100% - 28px), 280px);
++  min-height: auto;
++  margin: 14px;
++  padding: 18px 18px 16px;
++  gap: 10px;
+   font-size: 13px;
+-  letter-spacing: 0.03em;
++  letter-spacing: 0.02em;
++  border-radius: 16px;
++  backdrop-filter: blur(10px);
++  box-shadow:
++    inset 0 1px 0 #ffffff10,
++    0 18px 32px #00000030;
++}
++
++.viewer-app--hero .loading-eyebrow {
++  font-size: 9px;
++  letter-spacing: 0.15em;
++}
++
++.viewer-app--hero .loading-ornament {
++  width: 108px;
++  gap: 5px;
++}
++
++.viewer-app--hero .loading-title {
++  font-size: clamp(20px, 3vw, 24px);
++  line-height: 0.98;
++}
++
++.viewer-app--hero .loading-message {
++  font-size: 12px;
++  line-height: 1.5;
+ }
+ 
+ .app.lobby-app {
+@@ -1328,9 +1889,10 @@ canvas {
+ }
+ 
+ .museum-header {
+-  max-width: 1100px;
+-  margin: 48px auto 10px auto;
+-  padding: 0 40px;
++  max-width: 1180px;
++  margin: 52px auto 10px auto;
++  padding: 24px 40px 0;
++  border-top: 1px solid var(--editorial-rule);
+ }
+ 
+ .museum-header--simple {
+@@ -1338,11 +1900,11 @@ canvas {
+ }
+ 
+ .page-title {
+-  margin: 0 0 14px;
++  margin: 0 0 18px;
+   font-family: var(--font-display);
+   font-size: clamp(1.6rem, 3vw, 2.4rem);
+   line-height: 1;
+-  letter-spacing: 0.02em;
++  letter-spacing: 0.01em;
+   color: var(--accent-graphite);
+ }
+ 
+@@ -1366,17 +1928,17 @@ canvas {
+ .page-heading {
+   margin: 0 0 16px;
+   font-family: var(--font-display);
+-  font-size: clamp(3.45rem, 7vw, 5.8rem);
+-  line-height: 0.95;
+-  letter-spacing: -0.045em;
++  font-size: clamp(3.8rem, 7.4vw, 6.4rem);
++  line-height: 0.88;
++  letter-spacing: -0.04em;
+   color: rgba(48, 41, 34, 0.96);
+ }
+ 
+ .page-subtitle {
+   max-width: 760px;
+   margin: 0;
+-  font-size: 17px;
+-  line-height: 1.72;
++  font-size: 15px;
++  line-height: 1.76;
+   color: #62574b;
+ }
+ 
+@@ -1386,102 +1948,119 @@ canvas {
+   line-height: 1.5;
+   letter-spacing: 0.16em;
+   text-transform: uppercase;
+-  color: #7a6d5c;
++  color: #72685e;
++}
++
++.page-actions {
++  margin-top: 22px;
++  display: flex;
++  flex-wrap: wrap;
++  align-items: center;
++  gap: 12px 16px;
++}
++
++.page-action-note {
++  margin: 0;
++  max-width: 540px;
++  font-size: 13px;
++  line-height: 1.6;
++  color: #6b5d50;
+ }
+ 
+ .lobby-app .stage {
+-  gap: clamp(56px, 8vw, 88px);
+-  padding: clamp(34px, 5vw, 56px) clamp(18px, 4vw, 44px) calc(52px + env(safe-area-inset-bottom));
++  gap: clamp(68px, 9vw, 104px);
++  padding: clamp(40px, 5vw, 64px) clamp(20px, 4vw, 48px) calc(60px + env(safe-area-inset-bottom));
+ }
+ 
+ .section-head {
+   display: flex;
+   align-items: end;
+   justify-content: space-between;
+-  gap: 16px;
+-  padding-bottom: 16px;
+-  border-bottom: 1px solid #bca98d66;
++  gap: 20px;
++  padding-bottom: 20px;
++  border-bottom: 1px solid var(--editorial-rule);
+ }
+ 
+ .section-kicker {
+-  margin: 0 0 10px;
+-  font-size: 11px;
+-  letter-spacing: 0.28em;
++  margin: 0 0 12px;
++  font-size: 12px;
++  letter-spacing: 0.14em;
+   text-transform: uppercase;
+-  color: #7c6c57;
++  color: #776b62;
++  font-weight: 650;
+ }
+ 
+ .lobby-app .section-title {
+   margin: 0;
+   font-family: var(--font-display);
+-  font-size: clamp(2rem, 3.6vw, 3.2rem);
+-  line-height: 1;
+-  letter-spacing: -0.03em;
++  font-size: clamp(2.25rem, 3.9vw, 3.55rem);
++  line-height: 0.96;
++  letter-spacing: -0.022em;
+   color: var(--text);
+   text-transform: none;
+ }
+ 
+ .section-sub {
+-  margin: 16px 0 0;
+-  font-size: 15px;
+-  line-height: 1.65;
+-  color: #65594b;
+-  max-width: 48rem;
++  margin: 18px 0 0;
++  font-size: 16px;
++  line-height: 1.72;
++  color: #5f564f;
++  max-width: 52rem;
+ }
+ 
+ .featured-work {
+-  max-width: 1100px;
++  max-width: 1180px;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: 1fr 1.2fr;
+-  gap: clamp(44px, 6vw, 72px);
++  gap: clamp(60px, 7.5vw, 92px);
+   align-items: center;
+   padding: 0 40px;
+ }
+ 
+ .featured-copy {
+   display: grid;
+-  gap: 12px;
++  gap: 14px;
+   align-content: start;
+-  max-width: 460px;
++  max-width: 490px;
+ }
+ 
+ .featured-label {
+   font-size: 11px;
+-  letter-spacing: 0.18em;
++  letter-spacing: 0.24em;
+   text-transform: uppercase;
+-  color: #8a8a8a;
++  color: #766d62;
+   margin: 0 0 10px;
+ }
+ 
+ .featured-title {
+   margin: 0;
+   font-family: var(--font-display);
+-  font-size: clamp(42px, 4.5vw, 56px);
+-  line-height: 1.04;
+-  margin-bottom: 8px;
++  font-size: clamp(50px, 5.2vw, 70px);
++  line-height: 0.93;
++  margin-bottom: 10px;
+   letter-spacing: -0.03em;
+   font-weight: 600;
+ }
+ 
+ .featured-artist {
+   font-size: 15px;
+-  line-height: 1.6;
++  line-height: 1.74;
+   color: #63584c;
+-  margin: 0 0 18px;
++  margin: 0 0 22px;
+ }
+ 
+ .explore-button {
+   width: fit-content;
+-  border: 1px solid #bfa98a;
+-  border-radius: 999px;
+-  padding: 11px 18px;
+-  font-size: 12px;
+-  letter-spacing: 0.12em;
++  border: 1px solid #c8c1b6;
++  border-radius: var(--editorial-radius-pill);
++  padding: 11px 18px 10px;
++  font-size: 11px;
++  letter-spacing: 0.16em;
+   text-transform: uppercase;
+-  background: #f7f0e6;
++  background: #fbf8f3;
+   cursor: pointer;
+-  color: #433629;
++  color: #161411;
+   text-decoration: none;
+   font-weight: 600;
+   transition:
+@@ -1492,9 +2071,10 @@ canvas {
+ }
+ 
+ .explore-button:hover {
+-  background: #efe3d2;
+-  border-color: #a88c67;
++  background: #fffdfa;
++  border-color: #181512;
+   transform: translateY(-1px);
++  box-shadow: 0 12px 22px #17120d10;
+ }
+ 
+ .sculpture-stage {
+@@ -1503,14 +2083,12 @@ canvas {
+   overflow: hidden;
+   background: radial-gradient(
+     ellipse at center,
+-    #e7dfd3 0%,
+-    #d8cfbf 100%
++    #ece5d9 0%,
++    #dfd5c7 100%
+   );
+-  border-radius: 6px;
+-  border: 1px solid #d5c4af;
+-  box-shadow:
+-    0 18px 34px #5a452611,
+-    inset 0 1px 0 #fffaf1;
++  border-radius: var(--editorial-radius-lg);
++  border: 1px solid #d4cdc2;
++  box-shadow: 0 22px 42px #17120d12;
+ }
+ 
+ .sculpture-stage--link {
+@@ -1560,8 +2138,8 @@ canvas {
+ .browse-section,
+ .rooms-section {
+   display: grid;
+-  gap: 18px;
+-  width: min(100%, 1360px);
++  gap: 22px;
++  width: min(100%, 1380px);
+   margin: 0 auto;
+ }
+ 
+@@ -1570,127 +2148,215 @@ canvas {
+   padding: 0;
+   list-style: none;
+   display: grid;
+-  grid-auto-flow: column;
+-  grid-auto-columns: minmax(240px, 28vw);
+-  gap: 20px;
+-  align-items: start;
+-  overflow-x: auto;
+-  overscroll-behavior-x: contain;
+-  scroll-snap-type: x proximity;
+-  padding-bottom: 6px;
++  grid-template-columns: repeat(auto-fit, minmax(min(100%, 228px), 1fr));
++  gap: 34px 26px;
++  align-items: stretch;
+ }
+ 
+ .new-addition-item {
++  display: flex;
+   min-width: 0;
+-  scroll-snap-align: start;
+ }
+ 
+ .new-addition-card {
+   display: grid;
+-  gap: 14px;
++  grid-template-rows: auto 1fr;
++  gap: 18px;
++  width: 100%;
+   height: 100%;
+-  padding: 16px 16px 18px;
+-  border: 1px solid #d7c8b4;
+-  border-radius: 18px;
+-  background: linear-gradient(180deg, #faf6ef 0%, #f3ebdf 100%);
++  padding: 16px 16px 20px;
++  border: 1px solid #d8d0c4;
++  border-radius: 16px;
++  background: linear-gradient(180deg, #fcfaf6 0%, #f4eee5 100%);
+   box-shadow:
+-    inset 0 1px 0 #fffaf4,
+-    0 8px 20px #5a45220a;
++    inset 0 1px 0 #ffffffc6,
++    0 20px 36px #17120d0b;
+   text-decoration: none;
+   color: inherit;
++  transform-origin: center;
++  transition:
++    transform 200ms ease-out,
++    border-color 200ms ease-out,
++    box-shadow 200ms ease-out,
++    background 200ms ease-out;
+ }
+ 
+ .new-addition-card:hover,
+ .new-addition-card:focus-visible {
+   color: var(--link);
+-  border-color: #b7a489;
++  transform: translateY(-3px) scale(1.022);
++  border-color: #9b8a76;
++  background: linear-gradient(180deg, #fdfbf7 0%, #f6f0e7 100%);
++  box-shadow:
++    inset 0 1px 0 #ffffffd2,
++    0 26px 48px #17120d16;
+   outline: none;
+ }
+ 
+ .new-addition-stage {
+   position: relative;
+   display: block;
+-  min-height: 340px;
++  aspect-ratio: 4 / 5;
++  min-height: 0;
+   border-radius: 14px;
+   overflow: hidden;
++  border: 1px solid #ddd5c8;
+   background:
+-    linear-gradient(180deg, #f8f1e3 0%, #ece1cf 100%);
++    linear-gradient(180deg, #f6f1e8 0%, #ece3d7 100%);
+   box-shadow:
+-    inset 0 1px 0 #fff9f1,
+-    0 10px 24px #5a45220f;
++    inset 0 1px 0 #ffffffc4,
++    inset 0 -28px 48px #17120d05;
+ }
+ 
+ .new-addition-frame {
+   display: block;
+   width: 100%;
+   height: 100%;
+-  min-height: 340px;
++  min-height: 0;
+   border: 0;
+   background: transparent;
+ }
+ 
+-.new-addition-meta {
++.new-addition-body {
+   display: grid;
+-  gap: 8px;
++  grid-template-rows: 1fr auto;
++  gap: 14px;
++  align-content: start;
++  min-height: 0;
++}
++
++.new-addition-header {
++  display: grid;
++  gap: 16px;
+   align-content: start;
+ }
+ 
++.new-addition-meta-row {
++  display: flex;
++  justify-content: space-between;
++  align-items: flex-start;
++  gap: 12px;
++  padding-bottom: 12px;
++  border-bottom: 1px solid var(--editorial-rule);
++}
++
+ .new-addition-gallery {
+   margin: 0;
+-  font-size: 11px;
+-  letter-spacing: 0.18em;
++  font-size: 10px;
++  letter-spacing: 0.16em;
++  font-weight: 600;
++  text-transform: uppercase;
++  color: #75695d;
++}
++
++.new-addition-date {
++  margin: 0;
++  font-size: 10px;
++  line-height: 1.45;
++  letter-spacing: 0.08em;
+   text-transform: uppercase;
+-  color: #766856;
++  color: #8b7d6d;
++  text-align: right;
++}
++
++.new-addition-title-block {
++  display: grid;
++  gap: 8px;
++  align-content: start;
+ }
+ 
+ .new-addition-title {
+   margin: 0;
+-  font-family: var(--font-display);
+-  font-size: clamp(1.2rem, 1.8vw, 1.55rem);
++  font-family: var(--serif-display);
++  font-size: clamp(1.45rem, 1.8vw, 1.9rem);
+   line-height: 1.02;
+-  letter-spacing: -0.02em;
++  letter-spacing: -0.014em;
+   font-weight: 600;
++  text-wrap: balance;
+ }
+ 
+-.new-addition-creator,
+-.new-addition-date {
++.new-addition-creator {
+   margin: 0;
+-  color: #5d5143;
+-  font-size: 14px;
+-  line-height: 1.55;
++  color: #62584d;
++  font-size: 13px;
++  line-height: 1.68;
++}
++
++.new-addition-footer {
++  display: flex;
++  align-items: flex-end;
++  margin-top: auto;
++  padding-top: 2px;
++}
++
++.new-addition-card .piece-link {
++  margin-top: 0;
++  font-size: 11px;
++  letter-spacing: 0.1em;
++}
++
++@media (max-width: 1100px) {
++  .new-additions-grid {
++    grid-template-columns: repeat(3, minmax(0, 1fr));
++    gap: 24px 18px;
++  }
+ }
+ 
+ @media (max-width: 900px) {
+   .new-additions-grid {
+-    grid-auto-columns: minmax(220px, 78vw);
++    grid-template-columns: repeat(2, minmax(0, 1fr));
++    gap: 20px 16px;
+   }
+ 
+-  .new-addition-stage,
+-  .new-addition-frame {
+-    min-height: 300px;
++  .new-addition-card {
++    padding: 12px 12px 16px;
+   }
+-}
+ 
+-.rooms-section {
+-  gap: 30px;
++  .new-addition-body {
++    gap: 10px;
++  }
++
++  .new-addition-title {
++    font-size: clamp(1.18rem, 5vw, 1.5rem);
++  }
++
++  .new-addition-creator {
++    font-size: 12px;
++  }
++}
++
++@media (max-width: 640px) {
++  .new-additions-grid {
++    grid-template-columns: 1fr;
++    gap: 18px;
++  }
++
++  .new-addition-card {
++    padding: 12px 12px 14px;
++  }
++}
++
++.rooms-section {
++  gap: 30px;
+ }
+ 
+ .browse-status {
+   margin: 2px 0 0;
+-  font-size: 12px;
+-  letter-spacing: 0.14em;
++  font-size: 13px;
++  letter-spacing: 0.08em;
+   text-transform: uppercase;
+-  color: #7b6b57;
++  color: #72675f;
++  font-weight: 600;
+ }
+ 
+ .browse-reset {
+-  padding: 8px 14px;
+-  border: 1px solid #b7a489;
+-  border-radius: 999px;
++  padding: 10px 14px 9px;
++  border: 1px solid #c7c0b5;
++  border-radius: var(--editorial-radius-pill);
+   background: transparent;
+-  color: #5b4a35;
+-  font-size: 12px;
+-  letter-spacing: 0.08em;
++  color: #171513;
++  font-size: 11px;
++  letter-spacing: 0.16em;
+   text-transform: uppercase;
+   cursor: pointer;
+ }
+@@ -1698,35 +2364,34 @@ canvas {
+ .browse-grid {
+   display: grid;
+   grid-template-columns: repeat(2, minmax(0, 1fr));
+-  gap: 22px 28px;
++  gap: 28px 32px;
+   align-items: start;
+ }
+ 
+ .browse-group {
+   display: grid;
+-  gap: 12px;
++  gap: 14px;
+   align-content: start;
+-  padding: 18px 18px 16px;
+-  border: 1px solid #d7c8b4;
+-  border-radius: 18px;
+-  background: linear-gradient(180deg, #faf6ef 0%, #f3ebdf 100%);
+-  box-shadow:
+-    inset 0 1px 0 #fffaf4,
+-    0 8px 20px #5a45220a;
++  padding: 20px 20px 18px;
++  border: 1px solid var(--card-border);
++  border-radius: var(--editorial-radius-lg);
++  background: linear-gradient(180deg, #fcfaf5 0%, #f3eee6 100%);
++  box-shadow: 0 14px 28px #17120d0c;
+ }
+ 
+ .browse-group-title {
+   margin: 0;
+-  font-size: 12px;
+-  letter-spacing: 0.22em;
++  font-size: 14px;
++  letter-spacing: 0.12em;
+   text-transform: uppercase;
+-  color: #746553;
++  color: #88715f;
++  font-weight: 650;
+ }
+ 
+ .browse-chip-row {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+-  gap: 4px 12px;
++  gap: 6px 14px;
+   align-content: start;
+ }
+ 
+@@ -1737,33 +2402,36 @@ canvas {
+   gap: 12px;
+   width: 100%;
+   border: 0;
+-  border-radius: 10px;
++  border-radius: var(--editorial-radius);
+   padding: 8px 10px;
+   background: none;
+-  color: #433628;
++  color: #3d342d;
+   cursor: pointer;
+   font: inherit;
++  font-size: 14px;
++  line-height: 1.45;
+   text-align: left;
+ }
+ 
+ .browse-chip:hover,
+ .browse-chip:focus-visible {
+   color: var(--link);
+-  background: #f8f2e9;
++  background: #f6efe6;
+   outline: none;
+ }
+ 
+ .browse-chip.is-active {
+   color: var(--link);
+-  background: #efe4d2;
+-  box-shadow: inset 0 0 0 1px #cbb28d;
++  background: #efe3d8;
++  box-shadow: inset 0 0 0 1px #ccb39a;
+ }
+ 
+ .browse-count {
+   align-self: start;
+   min-width: 2ch;
+-  color: var(--muted);
+-  font-size: 12px;
++  color: #7a6d63;
++  font-size: 13px;
++  font-weight: 600;
+   font-variant-numeric: tabular-nums;
+   text-align: right;
+ }
+@@ -1787,65 +2455,190 @@ canvas {
+ .gallery-grid {
+   display: grid;
+   grid-template-columns: repeat(4, minmax(0, 1fr));
+-  gap: 32px 28px;
++  gap: 36px 32px;
+   align-items: start;
+ }
+ 
+ .chronology-group {
+   display: grid;
+-  gap: 20px;
++  gap: 24px;
+ }
+ 
+ .chronology-head {
+   display: grid;
+-  gap: 8px;
++  gap: 10px;
+ }
+ 
+ .chronology-kicker {
+   margin: 0;
+-  color: #7b6548;
++  color: #8b7460;
+   text-transform: uppercase;
+-  letter-spacing: 0.18em;
+-  font-size: 10px;
++  letter-spacing: 0.14em;
++  font-size: 11px;
+   font-weight: 700;
+ }
+ 
+ .chronology-title {
+   margin: 0;
+   font-family: var(--font-display);
+-  font-size: clamp(1.9rem, 3vw, 2.7rem);
+-  line-height: 0.98;
+-  letter-spacing: -0.025em;
++  font-size: clamp(2.1rem, 3.2vw, 2.95rem);
++  line-height: 0.95;
++  letter-spacing: -0.016em;
+   font-weight: 600;
+   color: var(--accent-graphite);
+ }
+ 
+ .chronology-meta {
+   margin: 0;
+-  color: #746452;
+-  font-size: 12px;
+-  letter-spacing: 0.1em;
++  color: #6f6258;
++  font-size: 13px;
++  letter-spacing: 0.06em;
+   text-transform: uppercase;
++  font-weight: 600;
+ }
+ 
+ .chronology-group .gallery-grid {
+-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+-  gap: 26px 28px;
++  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
++  gap: 30px 32px;
++  justify-content: start;
+ }
+ 
+ .gallery-card {
+   display: grid;
+-  gap: 28px;
+-  padding: 26px 22px 24px;
++  gap: 30px;
++  padding: 28px 24px 26px;
+   border: 1px solid #c3b091;
+   border-radius: 22px;
+   background: linear-gradient(180deg, #f2e7d8 0%, #ebdecb 100%);
++  color: #261f1a;
+   scroll-margin-top: 24px;
+   box-shadow:
+     inset 0 1px 0 #fffaf4,
+     0 16px 30px #5a452209;
+ }
+ 
++.gallery-card--summary {
++  gap: 0;
++  padding: 0;
++  overflow: hidden;
++}
++
++.gallery-card-link {
++  display: grid;
++  grid-template-rows: auto 1fr;
++  min-height: 100%;
++  color: inherit;
++  text-decoration: none;
++  transition:
++    transform 200ms ease-out,
++    box-shadow 200ms ease-out,
++    background 200ms ease-out;
++}
++
++.gallery-card-link:hover,
++.gallery-card-link:focus-visible {
++  transform: translateY(-2px) scale(1.015);
++  outline: none;
++}
++
++.gallery-card-link:hover .gallery-card-media,
++.gallery-card-link:focus-visible .gallery-card-media {
++  box-shadow:
++    inset 0 1px 0 #fffaf4,
++    0 22px 40px #372a1818;
++}
++
++.gallery-card-media {
++  position: relative;
++  display: block;
++  aspect-ratio: 4 / 3;
++  overflow: hidden;
++  border-bottom: 1px solid #ccb89a;
++  background:
++    radial-gradient(circle at 50% 18%, #fff3dd 0%, transparent 34%),
++    linear-gradient(180deg, #efe2cf 0%, #ddcdb7 100%);
++}
++
++.gallery-card-frame {
++  display: block;
++  width: 100%;
++  height: 100%;
++  border: 0;
++  background: transparent;
++}
++
++.gallery-card-media-fallback {
++  position: absolute;
++  inset: 0;
++  display: grid;
++  place-items: center;
++  padding: 18px;
++  color: #6b5a49;
++  font-size: 11px;
++  letter-spacing: 0.16em;
++  text-transform: uppercase;
++}
++
++.gallery-card-body {
++  display: grid;
++  gap: 18px;
++  padding: 20px 22px 22px;
++  align-content: start;
++}
++
++.gallery-head--summary {
++  gap: 10px;
++  padding-bottom: 0;
++  border-bottom: 0;
++}
++
++.gallery-head--summary .gallery-title {
++  font-size: clamp(1.5rem, 2vw, 1.9rem);
++  line-height: 0.98;
++}
++
++.gallery-head--summary .gallery-description {
++  font-size: 14px;
++  line-height: 1.6;
++}
++
++.gallery-highlights {
++  display: grid;
++  gap: 10px;
++  padding-top: 16px;
++  border-top: 1px solid #ccb89a80;
++}
++
++.gallery-highlights-label {
++  font-size: 10px;
++  letter-spacing: 0.18em;
++  text-transform: uppercase;
++  color: #7c6957;
++  font-weight: 700;
++}
++
++.gallery-highlight-list {
++  margin: 0;
++  padding: 0;
++  list-style: none;
++  display: grid;
++  gap: 8px;
++}
++
++.gallery-highlight-item {
++  color: #41362d;
++  font-size: 14px;
++  line-height: 1.5;
++}
++
++.gallery-card-cta {
++  margin-top: 2px;
++}
++
++.gallery-filter-records {
++  display: none;
++}
++
+ .gallery-card:target {
+   border-color: #9e845e;
+   box-shadow:
+@@ -1856,43 +2649,120 @@ canvas {
+ 
+ .gallery-head {
+   display: grid;
+-  gap: 10px;
+-  padding-bottom: 20px;
++  gap: 12px;
++  padding-bottom: 22px;
+   border-bottom: 1px solid #c4b29380;
+ }
+ 
+ .gallery-region {
+   margin: 0;
+-  font-size: 11px;
+-  letter-spacing: 0.22em;
++  font-size: 12px;
++  letter-spacing: 0.14em;
+   text-transform: uppercase;
+-  color: #766856;
++  color: #7b6658;
++  font-weight: 700;
+ }
+ 
+ .gallery-title {
+   margin: 0;
+   font-family: var(--font-display);
+-  font-size: clamp(1.7rem, 2.6vw, 2.3rem);
++  font-size: clamp(1.9rem, 2.9vw, 2.55rem);
+   line-height: 0.98;
+-  letter-spacing: -0.02em;
++  letter-spacing: -0.014em;
+   font-weight: 600;
++  color: #2a221c;
+ }
+ 
+ .gallery-description {
+   margin: 0;
+-  color: #5d5143;
+-  font-size: 15px;
+-  line-height: 1.7;
++  color: #5a5049;
++  font-size: 16px;
++  line-height: 1.68;
+ }
+ 
+ .gallery-meta {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px 16px;
+-  color: #726452;
+-  font-size: 12px;
+-  letter-spacing: 0.1em;
++  color: #695c53;
++  font-size: 13px;
++  letter-spacing: 0.06em;
++  text-transform: uppercase;
++  font-weight: 600;
++}
++
++.gallery-spotlight {
++  display: grid;
++  gap: 14px;
++  text-decoration: none;
++  color: inherit;
++}
++
++.gallery-spotlight:focus-visible {
++  outline: none;
++}
++
++.gallery-spotlight-stage {
++  position: relative;
++  aspect-ratio: 4 / 5;
++  overflow: hidden;
++  border: 1px solid #c6b79f;
++  border-radius: 18px;
++  background:
++    radial-gradient(circle at 50% 24%, #ffffffcc 0%, transparent 30%),
++    linear-gradient(180deg, #fbf6ef 0%, #f1e8dc 100%);
++  box-shadow:
++    inset 0 1px 0 #fffaf4,
++    0 14px 26px #5a45220d;
++  transition:
++    transform 200ms ease-out,
++    border-color 200ms ease-out,
++    box-shadow 200ms ease-out;
++}
++
++.gallery-spotlight:hover .gallery-spotlight-stage,
++.gallery-spotlight:focus-visible .gallery-spotlight-stage {
++  transform: scale(1.022);
++  border-color: #a58d6b;
++  box-shadow:
++    inset 0 1px 0 #fffaf4,
++    0 20px 34px #372a1818;
++}
++
++.gallery-spotlight-frame {
++  width: 100%;
++  height: 100%;
++  display: block;
++  border: 0;
++  background: #f2ece4;
++  pointer-events: none;
++}
++
++.gallery-spotlight-copy {
++  display: grid;
++  gap: 5px;
++}
++
++.gallery-spotlight-label {
++  font-size: 11px;
++  letter-spacing: 0.16em;
+   text-transform: uppercase;
++  color: #7f6d61;
++  font-weight: 700;
++}
++
++.gallery-spotlight-title {
++  font-family: var(--font-display);
++  font-size: clamp(1.25rem, 2vw, 1.5rem);
++  line-height: 1.02;
++  letter-spacing: -0.01em;
++  color: #2b231c;
++}
++
++.gallery-spotlight-meta {
++  font-size: 13px;
++  line-height: 1.62;
++  color: #62564d;
+ }
+ 
+ .work-list {
+@@ -1900,36 +2770,42 @@ canvas {
+   padding: 0;
+   list-style: none;
+   display: grid;
+-  gap: 24px;
++  grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr));
++  gap: 26px 22px;
++  align-items: start;
++}
++
++.work-list--gallery {
++  align-items: stretch;
+ }
+ 
+ .work-item {
+   scroll-margin-top: 24px;
++  min-width: 0;
+ }
+ 
+ .piece {
+   display: grid;
+-  grid-template-columns: minmax(0, 1fr);
+-  grid-auto-flow: row;
+-  gap: 10px;
+-  align-items: start;
+-  justify-items: start;
+-  padding: 18px 16px 16px;
++  grid-template-rows: auto 1fr;
++  gap: 16px;
++  align-content: start;
++  min-height: 100%;
++  padding: 16px;
+   text-decoration: none;
+   color: inherit;
+   border: 1px solid #c6b79f;
+   border-radius: 18px;
+   background: #f7f1e966;
+   transition:
+-    transform 160ms ease,
+-    border-color 160ms ease,
+-    background-color 160ms ease,
+-    box-shadow 160ms ease;
++    transform 200ms ease-out,
++    border-color 200ms ease-out,
++    background-color 200ms ease-out,
++    box-shadow 200ms ease-out;
+ }
+ 
+ .piece:hover,
+ .piece:focus-visible {
+-  transform: translateY(-1px);
++  transform: translateY(-2px) scale(1.018);
+   border-color: #a58d6b;
+   background: #faf5ee;
+   box-shadow: 0 10px 22px #372a180d;
+@@ -1948,8 +2824,9 @@ canvas {
+   grid-column: 1;
+   margin: 0;
+   font-family: var(--font-display);
+-  font-size: 17px;
+-  line-height: 1.45;
++  font-size: 20px;
++  line-height: 1.2;
++  letter-spacing: -0.008em;
+   color: var(--text);
+ }
+ 
+@@ -1957,7 +2834,7 @@ canvas {
+   grid-column: 1;
+   margin: 0;
+   font-size: 14px;
+-  line-height: 1.6;
++  line-height: 1.64;
+   color: #5f5244;
+ }
+ 
+@@ -1965,13 +2842,13 @@ canvas {
+   grid-column: 1;
+   margin: 0;
+   font-size: 12px;
+-  letter-spacing: 0.12em;
++  letter-spacing: 0.06em;
+   text-transform: uppercase;
+   color: #7b6b57;
++  font-weight: 600;
+ }
+ 
+ .piece-link {
+-  grid-column: 1;
+   display: inline-flex;
+   align-items: center;
+   justify-self: start;
+@@ -1980,24 +2857,175 @@ canvas {
+   color: var(--link);
+   font-size: 12px;
+   font-weight: 600;
+-  letter-spacing: 0.16em;
++  letter-spacing: 0.12em;
+   text-transform: uppercase;
+ }
+ 
+-@supports (padding: max(0px)) {
+-  .museum-header {
+-    padding-top: max(0px, env(safe-area-inset-top));
+-  }
++.piece-media {
++  position: relative;
++  display: block;
++  aspect-ratio: 4 / 5;
++  overflow: hidden;
++  border: 1px solid #d8cfbf;
++  border-radius: 14px;
++  background:
++    radial-gradient(circle at 50% 18%, #fff7e8 0%, transparent 30%),
++    linear-gradient(180deg, #f6f0e5 0%, #e9dfd0 100%);
++  box-shadow:
++    inset 0 1px 0 #ffffffc4,
++    inset 0 -28px 44px #17120d08;
+ }
+ 
+-@media (max-width: 1200px) {
+-  .browse-grid,
+-  .gallery-grid {
+-    grid-template-columns: repeat(2, minmax(0, 1fr));
+-  }
++.piece-frame {
++  display: block;
++  width: 100%;
++  height: 100%;
++  border: 0;
++  background: transparent;
++}
+ 
+-  .featured-work {
+-    grid-template-columns: 1fr;
++.piece-media--placeholder {
++  display: grid;
++  place-items: center;
++}
++
++.piece-media-label {
++  padding: 0 18px;
++  color: #76685a;
++  font-size: 10px;
++  font-weight: 600;
++  letter-spacing: 0.16em;
++  text-transform: uppercase;
++  text-align: center;
++}
++
++.piece-copy {
++  display: grid;
++  gap: 8px;
++  align-content: start;
++}
++
++.gallery-breadcrumbs {
++  display: flex;
++  flex-wrap: wrap;
++  gap: 8px;
++  margin: 0 0 18px;
++  font-size: 12px;
++  letter-spacing: 0.12em;
++  text-transform: uppercase;
++  color: #7a6a5a;
++}
++
++.gallery-breadcrumbs a {
++  color: inherit;
++  text-decoration: none;
++}
++
++.gallery-breadcrumbs a:hover,
++.gallery-breadcrumbs a:focus-visible {
++  color: var(--link);
++  outline: none;
++}
++
++.gallery-stage {
++  gap: clamp(52px, 6vw, 78px);
++}
++
++.gallery-page-section {
++  display: grid;
++  gap: 24px;
++  width: min(100%, 1380px);
++  margin: 0 auto;
++}
++
++.gallery-page-section .section-sub {
++  margin: 0;
++}
++
++:root[data-theme="dark"] .gallery-card--summary {
++  border-color: #434c63;
++  background: linear-gradient(180deg, #181c2a 0%, #141825 100%);
++  color: var(--text);
++  box-shadow:
++    inset 0 1px 0 #ffffff08,
++    0 20px 40px #00000028;
++}
++
++:root[data-theme="dark"] .gallery-card-media {
++  border-bottom-color: #3f4860;
++  background:
++    radial-gradient(circle at 50% 18%, #ffe4cf14 0%, transparent 34%),
++    linear-gradient(180deg, #1d2232 0%, #151a27 100%);
++}
++
++:root[data-theme="dark"] .gallery-card-media-fallback,
++:root[data-theme="dark"] .piece-media-label {
++  color: #c3cadb;
++}
++
++:root[data-theme="dark"] .gallery-head--summary .gallery-title,
++:root[data-theme="dark"] .gallery-highlight-item,
++:root[data-theme="dark"] .piece-title {
++  color: #f5eff1;
++}
++
++:root[data-theme="dark"] .gallery-head--summary .gallery-description,
++:root[data-theme="dark"] .gallery-breadcrumbs,
++:root[data-theme="dark"] .piece-creator,
++:root[data-theme="dark"] .piece-date {
++  color: #b8c0d3;
++}
++
++:root[data-theme="dark"] .gallery-highlights {
++  border-top-color: #3f486080;
++}
++
++:root[data-theme="dark"] .gallery-highlights-label,
++:root[data-theme="dark"] .gallery-region {
++  color: #dec4cf;
++}
++
++:root[data-theme="dark"] .piece {
++  border-color: #434c63;
++  background: linear-gradient(180deg, #161b28 0%, #131723 100%);
++  box-shadow:
++    inset 0 1px 0 #ffffff08,
++    0 14px 32px #00000022;
++}
++
++:root[data-theme="dark"] .piece:hover,
++:root[data-theme="dark"] .piece:focus-visible {
++  border-color: #697590;
++  background: linear-gradient(180deg, #1a2030 0%, #151a28 100%);
++  box-shadow:
++    inset 0 1px 0 #ffffff08,
++    0 20px 36px #00000030;
++}
++
++:root[data-theme="dark"] .piece-media {
++  border-color: #3f4860;
++  background:
++    radial-gradient(circle at 50% 18%, #fff0e010 0%, transparent 30%),
++    linear-gradient(180deg, #202536 0%, #171b28 100%);
++  box-shadow:
++    inset 0 1px 0 #ffffff07,
++    inset 0 -28px 44px #00000012;
++}
++
++@supports (padding: max(0px)) {
++  .museum-header {
++    padding-top: max(0px, env(safe-area-inset-top));
++  }
++}
++
++@media (max-width: 1200px) {
++  .browse-grid,
++  .gallery-grid {
++    grid-template-columns: repeat(2, minmax(0, 1fr));
++  }
++
++  .featured-work {
++    grid-template-columns: 1fr;
+     gap: 24px;
+   }
+ 
+@@ -2052,11 +3080,46 @@ canvas {
+     padding: 22px 18px 20px;
+   }
+ 
++  .gallery-card--summary {
++    padding: 0;
++  }
++
++  .gallery-card-body {
++    padding: 18px;
++  }
++
++  .gallery-spotlight {
++    gap: 12px;
++  }
++
++  .gallery-spotlight-title {
++    font-size: 1.3rem;
++  }
++
++  .work-list {
++    grid-template-columns: repeat(auto-fill, minmax(min(100%, 190px), 1fr));
++    gap: 20px 16px;
++  }
++
++  .piece {
++    padding: 14px;
++  }
++
+   .browse-chip-row {
+     grid-template-columns: 1fr;
+   }
+ }
+ 
++@media (max-width: 560px) {
++  .work-list {
++    grid-template-columns: 1fr;
++  }
++
++  .gallery-card-media {
++    aspect-ratio: 4 / 3;
++  }
++}
++
+ @media (max-width: 820px) {
+   .app.viewer-app {
+     display: flex;
+@@ -2065,7 +3128,7 @@ canvas {
+     min-height: 100svh;
+   }
+ 
+-  .viewer-app--hero {
++  .app.viewer-app.viewer-app--hero {
+     display: grid;
+     height: 100%;
+     min-height: 100%;
+@@ -2097,6 +3160,12 @@ canvas {
+     box-shadow: none;
+   }
+ 
++  .app.viewer-app.viewer-app--hero #stage {
++    width: 100%;
++    height: 100%;
++    min-height: 100%;
++  }
++
+   .viewer-app .panel {
+     order: 2;
+     position: relative;
+@@ -2130,41 +3199,545 @@ canvas {
+   }
+ 
+   .loading {
+-    width: calc(100% - 28px);
++    width: calc(100% - 24px);
+     min-height: 190px;
+     padding: 24px 22px;
+   }
+ }
+ 
++.tour-shell {
++  min-height: 100svh;
++  display: grid;
++  grid-template-columns: minmax(320px, 420px) minmax(0, 1fr);
++  background:
++    radial-gradient(circle at top left, #ffffff72 0%, transparent 24%),
++    linear-gradient(180deg, #f7f4ee 0%, #ece6dc 100%);
++}
++
++.tour-panel {
++  position: relative;
++  z-index: 2;
++  display: grid;
++  align-content: start;
++  gap: 20px;
++  padding: 30px 26px calc(28px + env(safe-area-inset-bottom));
++  overflow: auto;
++  border-right: 1px solid var(--editorial-rule);
++  background:
++    linear-gradient(180deg, #faf7f1fa 0%, #f1ece4f4 100%);
++  backdrop-filter: blur(10px);
++}
++
++.tour-back {
++  width: fit-content;
++  display: inline-flex;
++  align-items: center;
++  gap: 8px;
++  font-size: 11px;
++  letter-spacing: 0.14em;
++  text-transform: uppercase;
++  text-decoration: none;
++  color: #5c4b38;
++}
++
++.tour-back::before {
++  content: "";
++  width: 28px;
++  height: 1px;
++  background: currentColor;
++}
++
++.tour-kicker {
++  margin: 0;
++  font-size: 11px;
++  letter-spacing: 0.26em;
++  text-transform: uppercase;
++  color: #7c6c57;
++}
++
++.tour-title {
++  margin: 0;
++  font-family: var(--font-display);
++  font-size: clamp(2.55rem, 4.7vw, 4.1rem);
++  line-height: 0.88;
++  letter-spacing: -0.06em;
++  color: #30271f;
++}
++
++.tour-copy,
++.tour-note {
++  margin: 0;
++  font-size: 14px;
++  line-height: 1.78;
++  color: #62564a;
++}
++
++.tour-status {
++  padding: 14px 16px;
++  border: 1px solid var(--card-border);
++  border-radius: var(--editorial-radius-lg);
++  background: #fcf9f4d0;
++  font-size: 12px;
++  line-height: 1.68;
++  color: #594c3f;
++}
++
++.tour-facts {
++  display: grid;
++  grid-template-columns: repeat(3, minmax(0, 1fr));
++  gap: 10px;
++}
++
++.tour-fact {
++  padding: 12px 14px;
++  border: 1px solid var(--card-border);
++  border-radius: var(--editorial-radius);
++  background: #f8f3eb;
++}
++
++.tour-fact-label {
++  margin: 0 0 6px;
++  font-size: 10px;
++  letter-spacing: 0.18em;
++  text-transform: uppercase;
++  color: #7d6f60;
++}
++
++.tour-fact-value {
++  margin: 0;
++  font-family: var(--font-display);
++  font-size: 28px;
++  line-height: 0.95;
++  color: #2f261e;
++}
++
++.tour-piece-list {
++  list-style: none;
++  padding: 0;
++  margin: 0;
++  display: grid;
++  gap: 12px;
++}
++
++.tour-piece-item {
++  padding: 14px 16px;
++  border: 1px solid var(--card-border);
++  border-radius: var(--editorial-radius-lg);
++  background: #fcf9f4c8;
++  box-shadow: 0 12px 24px #17120d0c;
++}
++
++.tour-piece-link {
++  color: inherit;
++  text-decoration: none;
++}
++
++.tour-piece-title {
++  margin: 0;
++  font-family: var(--font-display);
++  font-size: 28px;
++  line-height: 0.96;
++  letter-spacing: -0.05em;
++  color: #342a21;
++}
++
++.tour-piece-meta {
++  margin: 8px 0 0;
++  font-size: 13px;
++  line-height: 1.65;
++  color: #675b4f;
++}
++
++.tour-piece-link:hover .tour-piece-title {
++  color: #181512;
++}
++
++.tour-piece-link:focus-visible {
++  outline: 2px solid #9c7f5c;
++  outline-offset: 4px;
++  border-radius: 8px;
++}
++
++.tour-stage-shell {
++  position: relative;
++  min-height: 100svh;
++  background:
++    radial-gradient(circle at 22% 10%, #ffffff5a 0%, transparent 28%),
++    linear-gradient(180deg, #f0e8db 0%, #e5dacb 100%);
++}
++
++.tour-stage {
++  position: relative;
++  width: 100%;
++  height: 100svh;
++  touch-action: none;
++}
++
++.tour-stage canvas {
++  display: block;
++  width: 100%;
++  height: 100%;
++}
++
++.tour-loading-card {
++  position: absolute;
++  top: 26px;
++  right: 26px;
++  z-index: 3;
++  width: min(350px, calc(100% - 32px));
++  padding: 18px 20px;
++  border: 1px solid var(--card-border);
++  border-radius: 16px;
++  background: #fbf7f1de;
++  box-shadow: 0 24px 44px #17120d14;
++  backdrop-filter: blur(10px);
++}
++
++.tour-loading-card[hidden] {
++  display: none !important;
++}
++
++.tour-loading-kicker {
++  margin: 0 0 10px;
++  font-size: 11px;
++  letter-spacing: 0.18em;
++  text-transform: uppercase;
++  color: #8a755d;
++}
++
++.tour-loading-title {
++  margin: 0;
++  font-family: var(--font-display);
++  font-size: clamp(2.1rem, 4.2vw, 2.8rem);
++  line-height: 0.94;
++  letter-spacing: -0.06em;
++  color: #352a20;
++}
++
++.tour-loading-copy {
++  margin: 10px 0 0;
++  font-size: 14px;
++  line-height: 1.6;
++  color: #64584a;
++}
++
++.tour-hud {
++  position: absolute;
++  left: 26px;
++  bottom: 26px;
++  z-index: 3;
++  max-width: min(420px, calc(100% - 40px));
++  padding: 16px 18px;
++  border: 1px solid var(--card-border);
++  border-radius: var(--editorial-radius-lg);
++  background: #faf6efcf;
++  box-shadow: 0 18px 36px #17120d12;
++  backdrop-filter: blur(8px);
++}
++
++.tour-hud-title {
++  margin: 0 0 6px;
++  font-size: 11px;
++  letter-spacing: 0.18em;
++  text-transform: uppercase;
++  color: #866f57;
++}
++
++.tour-hud-copy {
++  margin: 0;
++  font-size: 13px;
++  line-height: 1.6;
++  color: #64584b;
++}
++
++.tour-mobile-dock {
++  position: absolute;
++  right: 18px;
++  bottom: 18px;
++  z-index: 3;
++  display: none;
++  grid-template-columns: repeat(3, minmax(0, 62px));
++  gap: 10px;
++}
++
++.tour-mobile-btn {
++  border: 1px solid #c7c0b5;
++  border-radius: var(--editorial-radius);
++  padding: 12px 10px;
++  background: #faf7f0de;
++  color: #161411;
++  font-size: 11px;
++  font-weight: 700;
++  letter-spacing: 0.14em;
++  text-transform: uppercase;
++  backdrop-filter: blur(10px);
++}
++
++.tour-mobile-btn:active {
++  background: #f1ebe2;
++}
++
++:root[data-ui-mode="classic"] {
++  --editorial-radius: 14px;
++  --editorial-radius-lg: 20px;
++  --editorial-rule: #d7cec2;
++  --editorial-shadow: 0 12px 28px var(--shadow-soft);
++}
++
++:root[data-theme="dark"][data-ui-mode="classic"] {
++  --editorial-rule: #584938;
++}
++
++:root[data-ui-mode="classic"] .museum-header {
++  max-width: 1100px;
++  margin: 48px auto 10px auto;
++  padding: 0 40px;
++  border-top: 0;
++}
++
++:root[data-ui-mode="classic"] .page-title {
++  margin: 0 0 14px;
++  letter-spacing: 0.04em;
++}
++
++:root[data-ui-mode="classic"] .page-heading {
++  font-size: clamp(3.45rem, 7vw, 5.8rem);
++  line-height: 0.95;
++  letter-spacing: -0.025em;
++}
++
++:root[data-ui-mode="classic"] .page-subtitle {
++  font-size: 17px;
++  line-height: 1.72;
++}
++
++:root[data-ui-mode="classic"] .page-meta {
++  font-size: 12px;
++  letter-spacing: 0.16em;
++}
++
++:root[data-ui-mode="classic"] .featured-work {
++  max-width: 1100px;
++  gap: clamp(44px, 6vw, 72px);
++}
++
++:root[data-ui-mode="classic"] .featured-title {
++  font-size: clamp(42px, 4.5vw, 56px);
++  line-height: 1.04;
++  letter-spacing: -0.016em;
++}
++
++:root[data-ui-mode="classic"] .section-title {
++  font-size: clamp(24px, 2.4vw, 34px);
++  line-height: 1;
++  letter-spacing: -0.016em;
++}
++
++:root[data-ui-mode="classic"] .viewer-title {
++  font-size: clamp(30px, 3vw, 34px);
++  line-height: 1.16;
++  letter-spacing: -0.01em;
++}
++
++:root[data-ui-mode="classic"] .viewer-artist {
++  font-size: 17px;
++  line-height: 1.58;
++}
++
++:root[data-ui-mode="classic"] .viewer-medium,
++:root[data-ui-mode="classic"] .viewer-dimensions,
++:root[data-ui-mode="classic"] .viewer-location {
++  font-size: 16px;
++  line-height: 1.6;
++}
++
++:root[data-ui-mode="classic"] .viewer-stats {
++  font-size: 13px;
++  line-height: 1.6;
++  letter-spacing: 0.03em;
++  text-transform: none;
++}
++
++:root[data-ui-mode="classic"] .btn,
++:root[data-ui-mode="classic"] .explore-button,
++:root[data-ui-mode="classic"] .browse-reset,
++:root[data-ui-mode="classic"] .theme-toggle,
++:root[data-ui-mode="classic"] .ui-mode-toggle,
++:root[data-ui-mode="classic"] .tour-mobile-btn {
++  font-size: 12px;
++  letter-spacing: 0.08em;
++  padding-top: 9px;
++  padding-bottom: 8px;
++}
++
++:root[data-ui-mode="classic"] .lobby-stat,
++:root[data-ui-mode="classic"] .lobby-section,
++:root[data-ui-mode="classic"] .piece,
++:root[data-ui-mode="classic"] .new-addition-card,
++:root[data-ui-mode="classic"] .browse-group,
++:root[data-ui-mode="classic"] .tour-status,
++:root[data-ui-mode="classic"] .tour-fact,
++:root[data-ui-mode="classic"] .tour-piece-item,
++:root[data-ui-mode="classic"] .tour-loading-card,
++:root[data-ui-mode="classic"] .tour-hud,
++:root[data-ui-mode="classic"] .source-card,
++:root[data-ui-mode="classic"] .loading,
++:root[data-ui-mode="classic"] .system-state-card {
++  border-radius: 18px;
++  box-shadow:
++    inset 0 1px 0 var(--panel-highlight),
++    0 14px 28px var(--shadow-soft);
++}
++
++:root[data-ui-mode="classic"] .lobby-section {
++  padding: 20px;
++}
++
++:root[data-ui-mode="classic"] .piece-title {
++  font-size: 19px;
++  line-height: 1.1;
++  letter-spacing: -0.01em;
++}
++
++:root[data-ui-mode="classic"] .new-addition-stage,
++:root[data-ui-mode="classic"] .sculpture-stage,
++:root[data-ui-mode="classic"] #stage {
++  border-radius: 24px;
++}
++
++:root[data-ui-mode="classic"] .sculpture-stage {
++  border-radius: 6px;
++  box-shadow:
++    0 18px 34px var(--shadow-soft),
++    inset 0 1px 0 var(--panel-highlight);
++}
++
++:root[data-ui-mode="classic"] #stage {
++  border-radius: 28px;
++  box-shadow:
++    0 22px 44px var(--shadow-soft),
++    inset 0 1px 0 var(--panel-highlight);
++}
++
++:root[data-ui-mode="classic"] .tour-title {
++  font-size: clamp(2.6rem, 5vw, 4.1rem);
++  line-height: 0.96;
++  letter-spacing: -0.022em;
++}
++
++:root[data-ui-mode="classic"] .tour-copy,
++:root[data-ui-mode="classic"] .tour-note {
++  font-size: 15px;
++  line-height: 1.68;
++}
++
++:root[data-ui-mode="classic"] .tour-fact-value {
++  font-size: 25px;
++  line-height: 1;
++}
++
++:root[data-ui-mode="classic"] .tour-piece-title {
++  font-size: 25px;
++  line-height: 1.02;
++  letter-spacing: -0.016em;
++}
++
++@media (max-width: 980px) {
++  .tour-shell {
++    grid-template-columns: 1fr;
++    grid-template-rows: minmax(54svh, 1fr) auto;
++  }
++
++  .tour-stage-shell,
++  .tour-stage {
++    min-height: 58svh;
++    height: 58svh;
++  }
++
++  .tour-panel {
++    z-index: 4;
++    margin-top: -18px;
++    border-right: 0;
++    border-top: 1px solid #d4c2aa;
++    border-radius: 28px 28px 0 0;
++    box-shadow: 0 -14px 28px #2f221012;
++    padding-top: 22px;
++  }
++
++  .tour-facts {
++    grid-template-columns: 1fr;
++  }
++
++  .tour-mobile-dock {
++    display: grid;
++  }
++}
++
++@media (max-width: 640px) {
++  .tour-panel {
++    padding-left: 16px;
++    padding-right: 16px;
++  }
++
++  .tour-stage-shell,
++  .tour-stage {
++    min-height: 52svh;
++    height: 52svh;
++  }
++
++  .tour-hud {
++    left: 14px;
++    right: 14px;
++    bottom: 100px;
++    max-width: none;
++  }
++
++  .tour-loading-card {
++    top: 14px;
++    left: 14px;
++    right: 14px;
++    width: auto;
++  }
++
++  .tour-mobile-dock {
++    left: 50%;
++    right: auto;
++    transform: translateX(-50%);
++  }
++}
++
+ @media (prefers-reduced-motion: reduce) {
+   html {
+     scroll-behavior: auto;
+   }
+ 
+   .piece,
++  .new-addition-card,
+   .lobby-jump,
+   .explore-button,
+   .sculpture-stage--link,
+   .browse-chip,
+   .browse-reset,
+-  .btn {
++  .btn,
++  .ui-mode-toggle,
++  .tour-mobile-btn {
+     transition: none;
+   }
+ 
+-  .loading::before {
++  .loading-ornament-line {
+     animation: none;
+   }
+ }
+ 
+-@keyframes viewerPulse {
++@keyframes loadingSweep {
+   0%,
+   100% {
+-    transform: scale(1);
+-    opacity: 0.92;
++    transform: scaleX(0.84);
++    opacity: 0.46;
+   }
+ 
+   50% {
+-    transform: scale(1.06);
++    transform: scaleX(1);
+     opacity: 1;
+   }
+ }
+diff --git a/museum/shared/page.js b/museum/shared/page.js
+index 9f4dbc6..a394424 100644
+--- a/museum/shared/page.js
++++ b/museum/shared/page.js
+@@ -1,7 +1,24 @@
+-const MODULE_VERSION = "20260329-1522";
++const MODULE_VERSION = "20260406-1905";
+ 
+ let catalogPromise = null;
++let themePromise = null;
++let printingPromise = null;
+ const COLLECTION_DESCRIPTION = "Form Gallery is a digital sculpture collection spanning antiquity through the twenty-first century. Browse by gallery, era, region, or maker.";
++const GALLERY_INDEX_PATH = "/museum/galleries/";
++
++function loadThemeModule() {
++  if (!themePromise) {
++    themePromise = import(`./theme.js?v=${MODULE_VERSION}`);
++  }
++  return themePromise;
++}
++
++function loadPrintingModule() {
++  if (!printingPromise) {
++    printingPromise = import(`./printing.js?v=${MODULE_VERSION}`);
++  }
++  return printingPromise;
++}
+ 
+ const MEDIUM_BY_PIECE = Object.freeze({
+   sphinx: "Limestone",
+@@ -546,6 +563,58 @@ function buildPiecePageDescription(piece) {
+   return segments.join(". ").replace(/\.\s*$/, "") + ".";
+ }
+ 
++function buildGalleryIndexDescription(lobby) {
++  const galleryCount = Array.isArray(lobby?.sections) ? lobby.sections.length : 0;
++  const workCount = Array.isArray(lobby?.sections)
++    ? lobby.sections.reduce((sum, section) => sum + (Array.isArray(section.items) ? section.items.length : 0), 0)
++    : 0;
++  return `Browse Form Gallery by gallery. Explore ${galleryCount} galleries across ${workCount} works spanning antiquity through the twenty-first century.`;
++}
++
++function buildGalleryPageDescription(section) {
++  const segments = [section.title];
++
++  if (section.subtitle) {
++    segments.push(section.subtitle);
++  }
++
++  const meta = [
++    Array.isArray(section.items) ? `${section.items.length} works` : "",
++    section.regionLabel || "",
++    section.spineTitle || ""
++  ]
++    .filter(Boolean)
++    .join(" • ");
++
++  if (meta) {
++    segments.push(meta);
++  }
++
++  segments.push("Browse this room page in Form Gallery.");
++  return segments.join(". ").replace(/\.\s*$/, "") + ".";
++}
++
++function parseGallerySectionId(pathname) {
++  if (!pathname.startsWith(GALLERY_INDEX_PATH)) {
++    return "";
++  }
++
++  if (pathname === GALLERY_INDEX_PATH || pathname === `${GALLERY_INDEX_PATH}index.html`) {
++    return "";
++  }
++
++  const remainder = pathname
++    .slice(GALLERY_INDEX_PATH.length)
++    .replace(/index\.html$/, "")
++    .replace(/\/$/, "");
++
++  if (!remainder || remainder.includes("/")) {
++    return "";
++  }
++
++  return remainder;
++}
++
+ export async function initMuseumLobbyPage() {
+   try {
+     const [{ museumLobby, museumPieces }, { renderMuseumLobby }] = await Promise.all([
+@@ -567,6 +636,44 @@ export async function initMuseumLobbyPage() {
+   }
+ }
+ 
++export async function initMuseumGalleryIndexPage() {
++  try {
++    const [{ museumLobby, museumPieces }, { renderMuseumGalleryIndex }] = await Promise.all([
++      loadCatalog(),
++      import(`./lobby.js?v=${MODULE_VERSION}`)
++    ]);
++    renderMuseumGalleryIndex(museumLobby, museumPieces);
++    setPageMetadata({
++      title: "Galleries — Form Gallery",
++      description: buildGalleryIndexDescription(museumLobby)
++    });
++  } catch (error) {
++    renderBootError("Failed to load the gallery index.", error);
++  }
++}
++
++export async function initMuseumGalleryPage(sectionId) {
++  const [{ museumLobby, museumPieces }, { renderMuseumGalleryPage }] = await Promise.all([
++    loadCatalog(),
++    import(`./lobby.js?v=${MODULE_VERSION}`)
++  ]);
++  const section = (museumLobby.sections || []).find((entry) => entry.id === sectionId);
++  if (!section) {
++    renderBootError(`Unknown gallery: ${sectionId}`, new Error(`Unknown gallery: ${sectionId}`));
++    return;
++  }
++
++  try {
++    renderMuseumGalleryPage(museumLobby, museumPieces, sectionId);
++    setPageMetadata({
++      title: `${section.title} — Form Gallery`,
++      description: buildGalleryPageDescription(section)
++    });
++  } catch (error) {
++    renderBootError(`Failed to load ${section.title}.`, error);
++  }
++}
++
+ export async function initMuseumPiecePage(pieceId) {
+   const { museumPieces } = await loadCatalog();
+   const piece = museumPieces[pieceId];
+@@ -576,8 +683,10 @@ export async function initMuseumPiecePage(pieceId) {
+   }
+ 
+   try {
++    const { buildPrintingInfo } = await loadPrintingModule();
+     const pagePiece = {
+       ...piece,
++      printing: buildPrintingInfo(piece),
+       pageTitle: `${simplifyWorkTitle(piece.viewerTitle)} — Form Gallery`
+     };
+ 
+@@ -612,6 +721,23 @@ export async function initMuseumPiecePage(pieceId) {
+ 
+ export async function initMuseumPageForCurrentPath() {
+   try {
++    const searchParams = new URLSearchParams(window.location.search);
++    const themeOverride = searchParams.get("theme");
++    const uiModeOverride = searchParams.get("uiMode") || searchParams.get("ui");
++    const { applyStoredTheme, applyStoredUiMode, applyTheme, applyUiMode } = await loadThemeModule();
++
++    if (themeOverride) {
++      applyTheme(themeOverride, { persist: false });
++    } else {
++      applyStoredTheme();
++    }
++
++    if (uiModeOverride) {
++      applyUiMode(uiModeOverride, { persist: false });
++    } else {
++      applyStoredUiMode();
++    }
++
+     const { museumRouteMap } = await loadCatalog();
+     const currentPath = normalizePath(window.location.pathname);
+ 
+@@ -620,6 +746,17 @@ export async function initMuseumPageForCurrentPath() {
+       return;
+     }
+ 
++    if (currentPath === GALLERY_INDEX_PATH || currentPath === `${GALLERY_INDEX_PATH}index.html`) {
++      await initMuseumGalleryIndexPage();
++      return;
++    }
++
++    const gallerySectionId = parseGallerySectionId(currentPath);
++    if (gallerySectionId) {
++      await initMuseumGalleryPage(gallerySectionId);
++      return;
++    }
++
+     const pieceId = museumRouteMap[currentPath];
+     if (!pieceId) {
+       renderBootError(`No museum entry is registered for ${currentPath}`, new Error(`Unknown museum route: ${currentPath}`));
+diff --git a/museum/tour/index.html b/museum/tour/index.html
+new file mode 100644
+index 0000000..f4f62b1
+--- /dev/null
++++ b/museum/tour/index.html
+@@ -0,0 +1,99 @@
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="utf-8" />
++    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
++    <title>Michelangelo Hall Tour — Form Gallery</title>
++    <meta name="theme-color" content="#f4efe7" />
++    <link rel="stylesheet" href="/museum/shared/museum.css?v=20260406-1905" />
++  </head>
++  <body>
++    <a class="skip-link" href="#tour-panel">Skip to tour overview</a>
++    <div class="tour-shell">
++      <aside class="tour-panel" id="tour-panel">
++        <div class="tour-toolbar">
++          <a class="tour-back" href="/museum/">Back to Atrium</a>
++          <div class="tour-toolbar-actions">
++            <button
++              class="ui-mode-toggle ui-mode-toggle--tour"
++              type="button"
++              data-ui-mode-toggle
++              data-label-editorial="Classic Layout"
++              data-label-classic="Editorial Layout"
++              aria-pressed="false"
++              aria-label="Switch to classic layout"
++            >
++              <span class="ui-mode-toggle-glyph" aria-hidden="true"></span>
++              <span class="ui-mode-toggle-text" data-ui-mode-toggle-label>Classic Layout</span>
++            </button>
++            <button
++              class="theme-toggle theme-toggle--tour"
++              type="button"
++              data-theme-toggle
++              data-label-light="Dark Mode"
++              data-label-dark="Light Mode"
++              aria-pressed="false"
++              aria-label="Switch to dark mode"
++            >
++              <span class="theme-toggle-swatch" aria-hidden="true"></span>
++              <span class="theme-toggle-text" data-theme-toggle-label>Dark Mode</span>
++            </button>
++          </div>
++        </div>
++        <div>
++          <p class="tour-kicker">3D Tour Preview</p>
++          <h1 class="tour-title">Michelangelo Hall</h1>
++        </div>
++        <p class="tour-copy">Walk a prototype gallery where the sculptures are staged against one another by real object height rather than the normalized single-work viewer scale.</p>
++        <p class="tour-note">This room is intentionally curated and lighter than the main museum pages: seven Michelangelo works, tour-specific meshes, and interpretive plinths so the scale relationships read quickly.</p>
++        <p class="tour-status" data-tour-status aria-live="polite">Preparing the room...</p>
++
++        <div class="tour-facts" aria-label="Tour facts">
++          <div class="tour-fact">
++            <p class="tour-fact-label">Works</p>
++            <p class="tour-fact-value" data-tour-fact-count>0</p>
++          </div>
++          <div class="tour-fact">
++            <p class="tour-fact-label">Tallest</p>
++            <p class="tour-fact-value" data-tour-fact-tallest>0 m</p>
++          </div>
++          <div class="tour-fact">
++            <p class="tour-fact-label">Height Range</p>
++            <p class="tour-fact-value" data-tour-fact-range>0-0 m</p>
++          </div>
++        </div>
++
++        <div>
++          <p class="tour-kicker">Room List</p>
++          <ul class="tour-piece-list" data-tour-pieces></ul>
++        </div>
++      </aside>
++
++      <main class="tour-stage-shell">
++        <div class="tour-stage" data-tour-stage aria-label="Interactive 3D gallery walkthrough">
++          <div class="tour-loading-card" data-tour-loading>
++            <p class="tour-loading-kicker">Preparing Tour</p>
++            <h2 class="tour-loading-title" data-tour-loading-title>Building a scale-aware gallery</h2>
++            <p class="tour-loading-copy" data-tour-loading-copy>Loading Michelangelo works for the room...</p>
++          </div>
++
++          <div class="tour-hud" aria-hidden="true">
++            <p class="tour-hud-title">Navigation</p>
++            <p class="tour-hud-copy">Drag to look around. Use W A S D to move, Q and E to turn, Shift to move faster, and tap any sculpture label to open its existing work page.</p>
++          </div>
++
++          <div class="tour-mobile-dock" aria-label="Touch navigation">
++            <button class="tour-mobile-btn" type="button" data-move="turnLeft">Turn L</button>
++            <button class="tour-mobile-btn" type="button" data-move="forward">Forward</button>
++            <button class="tour-mobile-btn" type="button" data-move="turnRight">Turn R</button>
++            <button class="tour-mobile-btn" type="button" data-move="left">Left</button>
++            <button class="tour-mobile-btn" type="button" data-move="backward">Back</button>
++            <button class="tour-mobile-btn" type="button" data-move="right">Right</button>
++          </div>
++        </div>
++      </main>
++    </div>
++
++    <script type="module" src="/museum/shared/tour.js?v=20260406-1905"></script>
++  </body>
++</html>
